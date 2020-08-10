@@ -1,8 +1,3 @@
-.my-container {
-  width: 100%;
-  max-width: 1160px;
-}
-
 .my-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -602,5 +597,35 @@ select {
 
 .pad-l-50 {
   padding-left: 50px;
+}
+
+.my-container {
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 320px) {
+  .my-container .nl-xs-col__row5 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .my-container .nl-xs-col__row5 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .my-container .nl-xs-col__row5 {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .my-container .nl-xs-col__row5 {
+    width: 20%;
+  }
 }
 /*# sourceMappingURL=common.css.map */

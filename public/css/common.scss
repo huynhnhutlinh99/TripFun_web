@@ -35,10 +35,6 @@
 
 $col: 12;
 $gutter: 10px; // khoảng cách giữa cách col
-.my-container{
-    width: 100%;
-    max-width: 1160px;
-}
 .my-row {
   display: flex;
   flex-wrap: wrap;
@@ -199,4 +195,29 @@ $max: 10;
     .pad-l-#{$temp*5} {
         padding-left: $temp*5 + px;
     }
+}
+.my-container{
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+  @include rs-xs {
+    .nl-xs-col__row5{
+      width: 100%;
+    }
+  }
+  @include rs-sm {
+    .nl-xs-col__row5{
+      width: 100%;
+    }
+  }
+  @include rs-md {
+    .nl-xs-col__row5{
+      width: 20%;
+    }
+  }
+  @include rs-lg {
+    .nl-xs-col__row5{
+      width: 20%;
+    }
+  }
 }
