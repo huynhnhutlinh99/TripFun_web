@@ -132,6 +132,7 @@ img {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 table,
@@ -196,6 +197,29 @@ $max: 10;
         padding-left: $temp*5 + px;
     }
 }
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.align-center{
+  align-items: center;
+}
+.bold-100{
+  font-weight: 100;
+}
+.bold-300{
+  font-weight: 300;
+}
+.bold-400{
+  font-weight: 400;
+}
+.bold-800{
+  font-weight: 500;
+}
+
+
 .my-container{
   width: 100%;
   max-width: 1160px;
@@ -220,4 +244,81 @@ $max: 10;
       width: 20%;
     }
   }
+}
+$color_grey_65: #656565;
+$color_grey_f3: #f3f3f3;
+$color_white: #fff;
+.nl-footer{
+  font-size: 16px;
+  @extend .pad-t-50;
+  @extend .pad-b-50;
+  .nl-white-part{
+    background-color: $color_white;
+  }
+  .nl-grey-part{
+    background-color: $color_grey_f3;
+    @extend .pad-t-25;
+    @extend .pad-b-25;
+  }
+  .nl-title-ft{
+    @extend .bold-800;
+    @extend .mg-b-20;
+  }
+  .nl-item__link{
+    display: block;
+    color: $color_grey_65;
+    @extend .mg-b-20;
+  }
+  .nl-icon{
+    position: relative;
+    bottom: -3px;
+    margin-right: 14px;
+  }
+}
+.nl-intag{
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-image: url(../img/icon1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.nl-fb{
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-image: url(../img/icon1.png);
+  background-position: 0 -34px;
+  background-repeat: no-repeat;
+}
+.nl-n-black{
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-image: url(../img/icon1.png);
+  background-position: 0 -69px;
+  background-repeat: no-repeat;
+}
+.nl-n-green{
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-image: url(../img/icon1.png);
+  background-position: 0 -105px;
+  background-repeat: no-repeat;
+}
+.nl-text-at-bt__footer{
+  position: relative;
+  color: $color_grey_65;
+  font-size: 14px;
+  display: inline-block;
+}
+.line-single{
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  @extend .mg-b-5;
+  @extend .mg-l-5;
+  @extend .mg-r-5;
 }
