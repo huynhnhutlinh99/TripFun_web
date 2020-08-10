@@ -225,6 +225,7 @@ $max: 10;
   max-width: 1160px;
   margin: auto;
   @include rs-xs {
+    padding: 0 20px;
     .nl-xs-col__row5{
       width: 100%;
     }
@@ -237,11 +238,13 @@ $max: 10;
   @include rs-md {
     .nl-xs-col__row5{
       width: 20%;
+      padding: 0;
     }
   }
   @include rs-lg {
     .nl-xs-col__row5{
       width: 20%;
+      padding: 0;
     }
   }
 }
@@ -250,10 +253,10 @@ $color_grey_f3: #f3f3f3;
 $color_white: #fff;
 .nl-footer{
   font-size: 16px;
-  @extend .pad-t-50;
-  @extend .pad-b-50;
   .nl-white-part{
     background-color: $color_white;
+    @extend .pad-t-50;
+    @extend .pad-b-50;
   }
   .nl-grey-part{
     background-color: $color_grey_f3;

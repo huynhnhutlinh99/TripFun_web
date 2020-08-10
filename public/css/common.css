@@ -584,7 +584,7 @@ select {
   margin-left: 50px;
 }
 
-.pad-t-50, .nl-footer {
+.pad-t-50, .nl-footer .nl-white-part {
   padding-top: 50px;
 }
 
@@ -592,7 +592,7 @@ select {
   padding-right: 50px;
 }
 
-.pad-b-50, .nl-footer {
+.pad-b-50, .nl-footer .nl-white-part {
   padding-bottom: 50px;
 }
 
@@ -637,6 +637,9 @@ select {
 }
 
 @media only screen and (min-width: 320px) {
+  .my-container {
+    padding: 0 20px;
+  }
   .my-container .nl-xs-col__row5 {
     width: 100%;
   }
@@ -651,12 +654,14 @@ select {
 @media only screen and (min-width: 768px) {
   .my-container .nl-xs-col__row5 {
     width: 20%;
+    padding: 0;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .my-container .nl-xs-col__row5 {
     width: 20%;
+    padding: 0;
   }
 }
 
