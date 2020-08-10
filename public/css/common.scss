@@ -83,32 +83,31 @@ $gutter: 10px; // khoảng cách giữa cách col
 //set up font
 @font-face {
     font-family: 'Noto Sans KR';
-    font-weight: 800;
-    src: url(../css/font/NotoSansKR-Bold.otf);
-}
-
-@font-face {
-    font-family: 'Noto Sans KR';
-    font-weight: 400;
-    src: url(../css/font/NotoSansKR-Regular.otf);
-}
-
-@font-face {
-    font-family: 'Noto Sans KR';
     font-weight: 100;
-    src: url(../css/font/NotoSansKR-Thin.otf);
+    src: url(./font/NotoSansKR-Thin.otf);
 }
 
 @font-face {
     font-family: 'Noto Sans KR';
     font-weight: 300;
-    src: url(../css/font/NotoSansKR-Light.otf);
+    src: url(./font/NotoSansKR-Light.otf);
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  src: url(./font/NotoSansKR-Regular.otf);
 }
 
 @font-face {
     font-family: 'Noto Sans KR';
     font-weight: 500;
-    src: url(../css/font/NotoSansKR-Medium.otf);
+    src: url(./font/NotoSansKR-Medium.otf);
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 800;
+  src: url(./font/NotoSansKR-Bold.otf);
 }
 
 //set up tags
