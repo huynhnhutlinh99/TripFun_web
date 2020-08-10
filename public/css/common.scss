@@ -1,0 +1,203 @@
+//[MOBILE FIRST]
+
+//rs-xs: extra - small
+//rs-sm: small
+//rs-md: medium
+//rs-lg: large
+//rs-xl: extra - large
+
+@mixin rs-xs {
+    @media only screen and(min-width:320px) {
+      @content;
+    }
+}
+@mixin rs-sm {
+    @media only screen and(min-width:576px) {
+        @content;
+    }
+}
+@mixin rs-md {
+    @media only screen and(min-width:768px) {
+        @content;
+    }
+}
+@mixin rs-lg {
+    @media only screen and(min-width:992px) {
+        @content;
+    }
+}
+@mixin rs-xl {
+    @media only screen and(min-width:1200px) {
+        @content;
+    }
+}
+
+
+$col: 12;
+$gutter: 10px; // khoảng cách giữa cách col
+.my-container{
+    width: 100%;
+    max-width: 1160px;
+}
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include rs-xs {
+    @for $i from 1 through $col {
+      .my-col-xs-#{$i} {
+        width: (100% / $col) * $i;
+      }
+    }
+  }
+  @include rs-sm {
+    @for $i from 1 through $col {
+      .my-col-sm-#{$i} {
+        width: (100% / $col) * $i;
+      }
+    }
+  }
+  @include rs-md {
+    @for $i from 1 through $col {
+      .my-col-md-#{$i} {
+        width: (100% / $col) * $i;
+      }
+    }
+  }
+  @include rs-lg {
+    @for $i from 1 through $col {
+      .my-col-lg-#{$i} {
+        width: (100% / $col) * $i;
+      }
+    }
+  }
+  @include rs-xl {
+    @for $i from 1 through $col {
+      .my-col-xl-#{$i} {
+        width: (100% / $col) * $i;
+      }
+    }
+  }
+}
+
+//set up font
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-weight: 800;
+    src: url(../css/font/NotoSansKR-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    src: url(../css/font/NotoSansKR-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    src: url(../css/font/NotoSansKR-Thin.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    src: url(../css/font/NotoSansKR-Light.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    src: url(../css/font/NotoSansKR-Medium.otf);
+}
+
+//set up tags
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 75%;
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+table,
+tr,
+td,
+th,
+thead,
+tbody {
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+button,
+input,
+select,
+textarea {
+    outline: none;
+}
+
+button,
+select {
+    cursor: pointer;
+}
+
+//space
+//margin
+$max: 10;
+@for $temp from 1 through $max{
+    //margin
+    //top
+    .mg-t-#{$temp*5} {
+      margin-top: $temp*5 + px;
+      }
+    //right
+    .mg-r-#{$temp*5} {
+        margin-right: $temp*5 + px;
+      }
+    //bottom
+    .mg-b-#{$temp*5} {
+        margin-bottom: $temp*5 + px;
+      }
+    //left
+    .mg-l-#{$temp*5} {
+        margin-left: $temp*5 + px;
+      }
+
+    //padding
+    //top
+    .pad-t-#{$temp*5} {
+        padding-top: $temp*5 + px;
+    }
+    //right
+    .pad-r-#{$temp*5} {
+        padding-right: $temp*5 + px;
+    }
+    //bottom
+    .pad-b-#{$temp*5} {
+        padding-bottom: $temp*5 + px;
+    }
+    //left
+    .pad-l-#{$temp*5} {
+        padding-left: $temp*5 + px;
+    }
+}
