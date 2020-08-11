@@ -117,7 +117,7 @@ $gutter: 10px; // khoảng cách giữa cách col
 
 html {
     font-size: 75%;
-    font-family: 'Noto Sans KR', sans-serif !important;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 ul,
@@ -218,7 +218,7 @@ $color_white: #fff;
   }
   .nl-grey-part{
     background-color: $color_grey_f3;
-    padding: 25px 0 25px;
+    padding: 25px 0 40px;
   }
   .nl-title-ft{
     font-weight: 800;
