@@ -75,21 +75,117 @@ include_once './index.php';
             <div class="ht-slider owl-carousel owl-theme">
                 <div class="ht-1">
                     <div class="img-1 img"></div>
-                </div>
-                <div class="ht-1">
-                    <div class="img-2 img"></div>
+                    <span class="like"></span>
+                    <div class="content">
+                        <div class="ht-gray">서서히섞이 . 것같아</div>
+                        <div class="ht-title">영혼을 달과 욕망으로별을 (향해짜는손)</div>
+                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/flash.jpg" alt=""></div>
+                        <div class="ht-star">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <span class="number">4.8<span class="ht-gray">(5을)</span></span>
+                        </div>
+                        <div class="ht-price">370,000<span class="sub">/1을</span></div>
+                    </div>
+                    <span class="promo">천국을보게</span>
                 </div>
                 <div class="ht-1">
                     <div class="img-1 img"></div>
+                    <span class="like"></span>
+                    <div class="content">
+                        <div class="ht-gray">서서히섞이 . 것같아</div>
+                        <div class="ht-title">영혼을 달과 욕망으로별을 (향해짜는손)</div>
+                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/flash.jpg" alt=""></div>
+                        <div class="ht-star">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <span class="number">4.8<span class="ht-gray">(5을)</span></span>
+                        </div>
+                        <div class="ht-price">370,000<span class="sub">/1을</span></div>
+                    </div>
+                    <span class="promo">천국을보게</span>
                 </div>
                 <div class="ht-1">
                     <div class="img-2 img"></div>
+                    <span class="like"></span>
+                    <div class="content">
+                        <div class="ht-gray">서서히섞이 . 것같아</div>
+                        <div class="ht-title">영혼을 달과 욕망으로별을 (향해짜는손)</div>
+                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/flash.jpg" alt=""></div>
+                        <div class="ht-star">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <span class="number">4.8<span class="ht-gray">(5을)</span></span>
+                        </div>
+                        <div class="ht-price">370,000<span class="sub">/1을</span></div>
+                    </div>
+                    <span class="promo">천국을보게</span>
                 </div>
                 <div class="ht-1">
                     <div class="img-1 img"></div>
+                    <span class="like"></span>
+                    <div class="content">
+                        <div class="ht-gray">서서히섞이 . 것같아</div>
+                        <div class="ht-title">영혼을 달과 욕망으로별을 (향해짜는손)</div>
+                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/flash.jpg" alt=""></div>
+                        <div class="ht-star">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <span class="number">4.8<span class="ht-gray">(5을)</span></span>
+                        </div>
+                        <div class="ht-price">370,000<span class="sub">/1을</span></div>
+                    </div>
+                    <span class="promo">천국을보게</span>
                 </div>
                 <div class="ht-1">
                     <div class="img-2 img"></div>
+                    <span class="like"></span>
+                    <div class="content">
+                        <div class="ht-gray">서서히섞이 . 것같아</div>
+                        <div class="ht-title">영혼을 달과 욕망으로별을 (향해짜는손)</div>
+                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/flash.jpg" alt=""></div>
+                        <div class="ht-star">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <span class="number">4.8<span class="ht-gray">(5을)</span></span>
+                        </div>
+                        <div class="ht-price">370,000<span class="sub">/1을</span></div>
+                    </div>
+                    <span class="promo">천국을보게</span>
+                </div>
+                <div class="ht-1">
+                    <div class="img-1 img"></div>
+                    <span class="like"></span>
+                    <div class="content">
+                        <div class="ht-gray">서서히섞이 . 것같아</div>
+                        <div class="ht-title">영혼을 달과 욕망으로별을 (향해짜는손)</div>
+                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/flash.jpg" alt=""></div>
+                        <div class="ht-star">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <img src="../public/img/ht-images/start.jpg" alt="">
+                            <span class="number">4.8<span class="ht-gray">(5을)</span></span>
+                        </div>
+                        <div class="ht-price">370,000<span class="sub">/1을</span></div>
+                    </div>
+                    <span class="promo">천국을보게</span>
                 </div>
                 
             </div>
