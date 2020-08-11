@@ -1,3 +1,4 @@
+</body>
 <footer class="nl-footer">
     <div class="nl-white-part">
         <div class="my-container">
@@ -59,3 +60,4 @@
         </div>
     </div>
 </footer>
+</html>
