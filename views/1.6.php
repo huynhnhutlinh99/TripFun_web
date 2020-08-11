@@ -12,8 +12,8 @@ include_once './index.php';
         </div>
     </div>
     <div class="my-container">
-        <div class="list-box-1">
-            <div class="ht-col-2 box-1">
+        <div class="ht-list-box-1">
+            <div class="ht-col-2 box-1 active">
                 <img src="../public/img/ht-images/1.6-01.jpg" alt="">
                 <span>삭제되므로</span>
             </div>
@@ -34,47 +34,47 @@ include_once './index.php';
                 <span>있으활동</span>
             </div>
         </div>
-        <div class="list-img">
+        <div class="ht-list">
             <h2>수 없습니다</h2>
             <div class="ht-list-img type-2">
-                <div class="ht-col-2 img-1 ht-1">
+                <div class="ht-col-2 img-1 ht-img">
                     <span>삭로</span>
                 </div>
-                <div class="ht-col-2 img-2 ht-1">
+                <div class="ht-col-2 img-2 ht-img">
                     <span>삭제</span>
                 </div>
-                <div class="ht-col-2 img-1 ht-1">
+                <div class="ht-col-2 img-1 ht-img">
                     <span>므로</span>
                 </div>
-                <div class="ht-col-2 img-2 ht-1">
+                <div class="ht-col-2 img-2 ht-img">
                     <span>삭로</span>
                 </div>
-                <div class="ht-col-2 img-1 ht-1">
+                <div class="ht-col-2 img-1 ht-img">
                     <span>삭로</span>
                 </div>
-                <div class="ht-col-2 img-2 ht-1">
+                <div class="ht-col-2 img-2 ht-img">
                     <span>삭로</span>
                 </div>
-                <div class="ht-col-2 img-1 ht-1">
+                <div class="ht-col-2 img-1 ht-img">
                     <span>삭로</span>
                 </div>
-                <div class="ht-col-2 img-2 ht-1">
+                <div class="ht-col-2 img-2 ht-img">
                     <span>삭로</span>
                 </div>
-                <div class="ht-col-2 img-1 ht-1">
+                <div class="ht-col-2 img-1 ht-img">
                     <span>삭로</span>
                 </div>
-                <div class="ht-col-2 img-2 ht-1">
+                <div class="ht-col-2 img-2 ht-img">
                     <span>삭로</span>
                 </div>
 
             </div>
         </div>
-        <div class="list-img">
+        <div class="ht-list">
             <h2>수 없습니다</h2>
             <div class="ht-slider owl-carousel owl-theme">
-                <div class="ht-1">
-                    <div class="img-1 img">
+                <div class="ht-item">
+                    <div class="img-2 ht-img">
                         <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
                     </div>
                     <span class="like"></span>
@@ -90,14 +90,15 @@ include_once './index.php';
                             <img src="../public/img/ht-images/start.jpg" alt="">
                             <span class="number">4.8<span class="ht-gray">(5을)</span></span>
                         </div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span></div>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        </div>
                     </div>
                     <span class="promo">천국을보게</span>
                     <div class="yellow-tick"></div>
 
                 </div>
-                <div class="ht-1">
-                    <div class="img-2 img">
+                <div class="ht-item">
+                    <div class="img-2 ht-img">
                         <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
                     </div>
                     <span class="like"></span>
@@ -113,13 +114,14 @@ include_once './index.php';
                             <img src="../public/img/ht-images/start.jpg" alt="">
                             <span class="number">4.8<span class="ht-gray">(5을)</span></span>
                         </div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span></div>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        </div>
                     </div>
                     <span class="promo">천국을보게</span>
                     <div class="yellow-tick"></div>
                 </div>
-                <div class="ht-1">
-                    <div class="img-1 img">
+                <div class="ht-item">
+                    <div class="img-2 ht-img">
                         <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
                     </div>
                     <span class="like"></span>
@@ -135,13 +137,14 @@ include_once './index.php';
                             <img src="../public/img/ht-images/start.jpg" alt="">
                             <span class="number">4.8<span class="ht-gray">(5을)</span></span>
                         </div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span></div>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        </div>
                     </div>
                     <span class="promo">천국을보게</span>
                     <div class="yellow-tick"></div>
                 </div>
-                <div class="ht-1">
-                    <div class="img-2 img">
+                <div class="ht-item">
+                    <div class="img-2 ht-img">
                         <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
                     </div>
                     <span class="like"></span>
@@ -157,13 +160,14 @@ include_once './index.php';
                             <img src="../public/img/ht-images/start.jpg" alt="">
                             <span class="number">4.8<span class="ht-gray">(5을)</span></span>
                         </div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span></div>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        </div>
                     </div>
                     <span class="promo">천국을보게</span>
                     <div class="yellow-tick"></div>
                 </div>
-                <div class="ht-1">
-                    <div class="img-2 img">
+                <div class="ht-item">
+                    <div class="img-2 ht-img">
                         <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
                     </div>
                     <span class="like"></span>
@@ -179,13 +183,14 @@ include_once './index.php';
                             <img src="../public/img/ht-images/start.jpg" alt="">
                             <span class="number">4.8<span class="ht-gray">(5을)</span></span>
                         </div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span></div>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        </div>
                     </div>
                     <span class="promo">천국을보게</span>
                     <div class="yellow-tick"></div>
                 </div>
-                <div class="ht-1">
-                    <div class="img-1 img">
+                <div class="ht-item">
+                    <div class="img-2 ht-img">
                         <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
                     </div>
                     <span class="like"></span>
@@ -201,7 +206,8 @@ include_once './index.php';
                             <img src="../public/img/ht-images/start.jpg" alt="">
                             <span class="number">4.8<span class="ht-gray">(5을)</span></span>
                         </div>
-                        <div class="ht-price"><span class="discount">270,000 을</span> 370,000<span class="sub">/1을</span></div>
+                        <div class="ht-price"><span class="discount">270,000 을</span> 370,000<span
+                                class="sub">/1을</span></div>
                     </div>
                     <span class="promo">천국을보게</span>
                     <div class="yellow-tick"></div>

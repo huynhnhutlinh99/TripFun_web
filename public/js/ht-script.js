@@ -1,8 +1,9 @@
 $(document).ready(function () {
+  //page 1.6
   $(".owl-carousel").owlCarousel({
     loop: true,
     dots: false,
-    margin: 14,
+    margin: 23,
     responsiveClass: true,
     responsive: {
       0: {
@@ -20,4 +21,14 @@ $(document).ready(function () {
       }
     }
   });
+
+  $(".ht-list-box-1 .box-1").on('click', function () {
+    $(".ht-list-box-1 .box-1").removeClass('active');
+    $(this).addClass('active');
+  })
+
+  $(".ht-slider .ht-1").on('click', function () {
+    $(".ht-slider .ht-1").removeClass('active');
+    $(this).addClass('active');
+  })
 });
