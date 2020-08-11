@@ -37,7 +37,9 @@
 .ht-col-10 {
   width: 100%;
 }
-
+.mg-r-10 {
+  margin-right: 10px;
+}
 @media only screen and (max-width: 1024px) {
   /* For mobile phones: */
   [class*="ht-col-"] {
