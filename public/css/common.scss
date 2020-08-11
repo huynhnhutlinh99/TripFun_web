@@ -156,47 +156,6 @@ button,
 select {
     cursor: pointer;
 }
-
-//space
-//margin
-$max: 10;
-@for $temp from 1 through $max{
-    //margin
-    //top
-    .mg-t-#{$temp*5} {
-      margin-top: $temp*5 + px;
-      }
-    //right
-    .mg-r-#{$temp*5} {
-        margin-right: $temp*5 + px;
-      }
-    //bottom
-    .mg-b-#{$temp*5} {
-        margin-bottom: $temp*5 + px;
-      }
-    //left
-    .mg-l-#{$temp*5} {
-        margin-left: $temp*5 + px;
-      }
-
-    //padding
-    //top
-    .pad-t-#{$temp*5} {
-        padding-top: $temp*5 + px;
-    }
-    //right
-    .pad-r-#{$temp*5} {
-        padding-right: $temp*5 + px;
-    }
-    //bottom
-    .pad-b-#{$temp*5} {
-        padding-bottom: $temp*5 + px;
-    }
-    //left
-    .pad-l-#{$temp*5} {
-        padding-left: $temp*5 + px;
-    }
-}
 .text-center{
   text-align: center;
 }
@@ -255,22 +214,20 @@ $color_white: #fff;
   font-size: 16px;
   .nl-white-part{
     background-color: $color_white;
-    @extend .pad-t-50;
-    @extend .pad-b-50;
+    padding: 50px 0 50px;
   }
   .nl-grey-part{
     background-color: $color_grey_f3;
-    @extend .pad-t-25;
-    @extend .pad-b-25;
+    padding: 25px 0 25px;
   }
   .nl-title-ft{
-    @extend .bold-800;
-    @extend .mg-b-20;
+    font-weight: 800;
+    margin-bottom: 20px;
   }
   .nl-item__link{
     display: block;
     color: $color_grey_65;
-    @extend .mg-b-20;
+    margin-bottom: 20px;
   }
   .nl-icon{
     position: relative;
