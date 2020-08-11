@@ -38,10 +38,10 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   /* For mobile phones: */
   [class*="ht-col-"] {
-    width: 48%;
+    width: 100%;
   }
   .ht-ontop {
     padding: 0 20px;
@@ -49,9 +49,16 @@
   .ht-container div.my-container {
     padding: 0 20px;
   }
+  .list-box-1 .box-1 {
+    margin-top: 20px;
+  }
+  div.list-box-1 {
+    margin-top: 0px;
+  }
 }
 
-@media only screen and (min-width: 769px) {
+
+@media only screen and (min-width: 1160px) {
   /* For mobile phones: */
   .ht-container div.my-container {
     width: 1160px;

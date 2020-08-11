@@ -5,7 +5,7 @@ include_once './index.php';
     <div class="ht-ontop">
         <div class="my-container">
             <div class="ht-title">
-                <h1 class="mg-r-10">앞으로는인</h1>
+                <h1 class="mg-r-10">앞으123로는인</h1>
                 <p>번역을 저장해야합니다</p>
             </div>
             <p>앞으로는 로그인 한 상태에서만</p>
