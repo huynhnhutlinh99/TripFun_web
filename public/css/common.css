@@ -475,25 +475,7 @@ select {
 }
 
 @media only screen and (min-width: 320px) {
-  .type-1-5 .nl-ctn__1_5 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-  .type-1-5 .nl-ctn__1_5 {
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .type-1-5 .nl-ctn__1_5 {
-    margin: 0 -9px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .type-1-5 .nl-ctn__1_5 {
+  .type-1-5 .nl-wrapper__1_5 {
     margin: 0 -9px;
   }
 }

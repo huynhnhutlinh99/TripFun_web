@@ -329,23 +329,15 @@ $color_white: #fff;
     }
   }
   @include rs-xs {
-    .nl-ctn__1_5{
-      margin: 0;
-    }
-  }
-  @include rs-sm {
-    .nl-ctn__1_5{
-      margin: 0;
-    }
-  }
-  @include rs-md {
-    .nl-ctn__1_5{
+    .nl-wrapper__1_5{
       margin: 0 -9px;
     }
   }
-  @include rs-lg {
-    .nl-ctn__1_5{
-      margin: 0 -9px;
-    }
-  }
+  // @include rs-sm {
+
+  // }
+  // @include rs-md {
+  // }
+  // @include rs-lg {
+  // }
 }
