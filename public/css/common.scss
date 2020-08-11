@@ -174,11 +174,14 @@ select {
 .bold-400{
   font-weight: 400;
 }
+.bold-500{
+  font-weight: 500;
+}
 .bold-800{
   font-weight: 500;
 }
 
-
+//footer
 .my-container{
   width: 100%;
   max-width: 1160px;
@@ -209,9 +212,13 @@ select {
 }
 $color_grey_65: #656565;
 $color_grey_f3: #f3f3f3;
+$color_grey_be: #bebebe;
 $color_white: #fff;
+
 .nl-footer{
   font-size: 16px;
+  border-top: 1px solid $color_grey_be;
+
   .nl-white-part{
     background-color: $color_white;
     padding: 50px 0 50px;
@@ -281,4 +288,27 @@ $color_white: #fff;
   @extend .mg-b-5;
   @extend .mg-l-5;
   @extend .mg-r-5;
+}
+//page 1.5
+.type-1-5{
+  .nl-title{
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .nl-ctn{
+    .nl-item{
+      .nl-img-part{
+        height: 180px;
+        width: 100%;
+        background-image: url(../img/icon1.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 7px;
+      }
+      .nl-name{
+        font-weight: 600;
+      }
+    }
+  }
 }
