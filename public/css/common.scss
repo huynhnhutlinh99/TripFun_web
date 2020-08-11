@@ -117,7 +117,7 @@ $gutter: 10px; // khoảng cách giữa cách col
 
 html {
     font-size: 75%;
-    font-family: 'Noto Sans KR', sans-serif !important;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 ul,
@@ -132,6 +132,7 @@ img {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 table,
@@ -155,52 +156,38 @@ button,
 select {
     cursor: pointer;
 }
-
-//space
-//margin
-$max: 10;
-@for $temp from 1 through $max{
-    //margin
-    //top
-    .mg-t-#{$temp*5} {
-      margin-top: $temp*5 + px;
-      }
-    //right
-    .mg-r-#{$temp*5} {
-        margin-right: $temp*5 + px;
-      }
-    //bottom
-    .mg-b-#{$temp*5} {
-        margin-bottom: $temp*5 + px;
-      }
-    //left
-    .mg-l-#{$temp*5} {
-        margin-left: $temp*5 + px;
-      }
-
-    //padding
-    //top
-    .pad-t-#{$temp*5} {
-        padding-top: $temp*5 + px;
-    }
-    //right
-    .pad-r-#{$temp*5} {
-        padding-right: $temp*5 + px;
-    }
-    //bottom
-    .pad-b-#{$temp*5} {
-        padding-bottom: $temp*5 + px;
-    }
-    //left
-    .pad-l-#{$temp*5} {
-        padding-left: $temp*5 + px;
-    }
+.text-center{
+  text-align: center;
 }
+.text-right{
+  text-align: right;
+}
+.align-center{
+  align-items: center;
+}
+.bold-100{
+  font-weight: 100;
+}
+.bold-300{
+  font-weight: 300;
+}
+.bold-400{
+  font-weight: 400;
+}
+.bold-500{
+  font-weight: 500;
+}
+.bold-800{
+  font-weight: 500;
+}
+
+//footer
 .my-container{
   width: 100%;
   max-width: 1160px;
   margin: auto;
   @include rs-xs {
+    padding: 0 20px;
     .nl-xs-col__row5{
       width: 100%;
     }
@@ -213,11 +200,115 @@ $max: 10;
   @include rs-md {
     .nl-xs-col__row5{
       width: 20%;
+      padding: 0;
     }
   }
   @include rs-lg {
     .nl-xs-col__row5{
       width: 20%;
+      padding: 0;
+    }
+  }
+}
+$color_grey_65: #656565;
+$color_grey_f3: #f3f3f3;
+$color_grey_be: #bebebe;
+$color_white: #fff;
+
+.nl-footer{
+  font-size: 16px;
+  border-top: 1px solid $color_grey_be;
+
+  .nl-white-part{
+    background-color: $color_white;
+    padding: 50px 0 50px;
+  }
+  .nl-grey-part{
+    background-color: $color_grey_f3;
+    padding: 25px 0 40px;
+  }
+  .nl-title-ft{
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .nl-item__link{
+    display: block;
+    color: $color_grey_65;
+    margin-bottom: 20px;
+  }
+  .nl-icon{
+    position: relative;
+    bottom: -3px;
+    margin-right: 14px;
+  }
+}
+.nl-intag{
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-image: url(../img/icon1.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.nl-fb{
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-image: url(../img/icon1.png);
+  background-position: 0 -34px;
+  background-repeat: no-repeat;
+}
+.nl-n-black{
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-image: url(../img/icon1.png);
+  background-position: 0 -69px;
+  background-repeat: no-repeat;
+}
+.nl-n-green{
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  background-image: url(../img/icon1.png);
+  background-position: 0 -105px;
+  background-repeat: no-repeat;
+}
+.nl-text-at-bt__footer{
+  position: relative;
+  color: $color_grey_65;
+  font-size: 14px;
+  display: inline-block;
+}
+.line-single{
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  @extend .mg-b-5;
+  @extend .mg-l-5;
+  @extend .mg-r-5;
+}
+//page 1.5
+.type-1-5{
+  .nl-title{
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .nl-ctn{
+    .nl-item{
+      .nl-img-part{
+        height: 180px;
+        width: 100%;
+        background-image: url(../img/icon1.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 7px;
+      }
+      .nl-name{
+        font-weight: 600;
+      }
     }
   }
 }

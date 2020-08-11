@@ -1,0 +1,246 @@
+.ht-col-1 {
+  width: 10%;
+}
+
+.ht-col-2 {
+  width: 18.5%;
+}
+
+.ht-col-3 {
+  width: 30%;
+}
+
+.ht-col-4 {
+  width: 40%;
+}
+
+.ht-col-5 {
+  width: 50%;
+}
+
+.ht-col-6 {
+  width: 60%;
+}
+
+.ht-col-7 {
+  width: 70%;
+}
+
+.ht-col-8 {
+  width: 80%;
+}
+
+.ht-col-9 {
+  width: 90%;
+}
+
+.ht-col-10 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+  [class*="ht-col-"] {
+    width: 100%;
+  }
+  .ht-container div.my-container {
+    padding: 0 20px;
+  }
+  .list-box-1 .box-1 {
+    margin-top: 20px;
+  }
+  div.list-box-1 {
+    margin-top: 0px;
+  }
+  .ht-ontop .ht-title>h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .ht-ontop div.ht-title>p {
+    font-size: 16px;
+  }
+}
+
+
+@media only screen and (min-width: 1160px) {
+  /* For mobile phones: */
+  .ht-container div.my-container {
+    width: 1160px;
+  }
+}
+
+.ht-container {
+  font-size: 16px;
+  color: #333333;
+  line-height: 16px;
+  padding-bottom: 50px;
+}
+
+.ht-container .my-container {
+  padding: 0;
+}
+
+.ht-ontop {
+  height: 205px;
+  background-color: #eff2f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 17px;
+  min-width: 100%;
+  align-items: center;
+
+}
+
+.ht-ontop .my-container .ht-title {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  line-height: 35px;
+  color: #292929;
+}
+
+.ht-ontop .ht-title p {
+  font-size: 22px;
+  color: #535458;
+  line-height: 22px;
+}
+
+.ht-ontop .my-container>p {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #919598;
+}
+
+.list-box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 73px;
+}
+
+.list-box-1 .box-1 {
+  height: 108px;
+  border: 1px solid hsl(210, 40%, 84%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.list-box-1 .box-1 span {
+  margin-top: 6px;
+  color: #434343;
+}
+.ht-container .list-img {
+  margin-top: 53px;
+}
+.ht-container .ht-list-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 39px;
+}
+.ht-container .ht-list-img .ht-1 {
+  height: 132px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 22px;
+}
+.ht-container .ht-list-img.ht-col-2 {
+  width: 20%;
+}
+.ht-container .ht-list-img .ht-1>span {
+  background-color: #ffffff;
+  border-radius: 3px;
+  width: 94px;
+  height: 31px;
+  text-align: center;
+  line-height: 31px;
+}
+.ht-container .ht-list-img .img-1 {
+  background-image: url(https://globaltravel.com.vn/wp-content/uploads/2018/12/eiffel-tower-paris-france-19.jpg);
+}
+.ht-container .ht-list-img .img-2 {
+  background-image: url(https://www.kynghidongduong.vn/images/product/img2/vinh-ha-long-kynghidongduong-vn.jpg);
+}
+.ht-container .ht-slider {
+  margin-top: 40px;
+}
+.ht-container .ht-slider .ht-1>.img {
+  height: 175px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.ht-container .ht-slider .img-1 {
+  background-image: url(https://globaltravel.com.vn/wp-content/uploads/2018/12/eiffel-tower-paris-france-19.jpg);
+}
+.ht-container .ht-slider .img-2 {
+  background-image: url(https://www.kynghidongduong.vn/images/product/img2/vinh-ha-long-kynghidongduong-vn.jpg);
+}
+.ht-container .ht-slider .ht-1 {
+  height: 100%;
+  background-position: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.ht-container .ht-slider .owl-item {
+  height: 340px;
+
+}
+.ht-container .ht-slider .owl-nav span {
+  font-size: 0px;
+
+}
+.ht-container .ht-slider.owl-carousel .owl-nav>button {
+  background: white;
+  height: 42px;
+  width: 43px;
+  border: 1px solid #e3e3e3 !important;
+  border-radius: 50%;
+  position: absolute;
+  background-repeat: no-repeat ;
+  background-position: center ;
+  background-size: 18px 18px ;
+  opacity: 1 ;
+  top: 145px;
+  cursor: pointer;
+}
+.ht-container .ht-slider.owl-carousel .owl-nav .owl-prev {
+  left: -67px;
+  background-image: url(../../img/ht-images/arrow-right.png);
+  transform: rotate(180deg);
+}
+.ht-container .ht-slider.owl-carousel .owl-nav .owl-next {
+  right: -67px;
+  background-image: url(../../img/ht-images/arrow-right.png);
+}
+
+.ht-bot-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 41px;
+}
+.ht-bot-footer>a {
+  height: 78px;
+    width: 563px;
+    text-align: center;
+    line-height: 78px;
+    background-color: #eff2f9;
+    font-size: 22px;
+    font-weight: 500;
+    color: #3b3b39;
+}
+/*# sourceMappingURL=ht-style.css.map */
