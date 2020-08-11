@@ -1,0 +1,223 @@
+.n-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.j-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.j-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.a-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.n-filter-left_item {
+  padding-right: 10px;
+  color: #656565;
+}
+
+.n-filter-left .active {
+  color: #379CF5;
+}
+
+.n-filter-left .main {
+  background-color: #379CF5;
+  color: white;
+  height: 30px;
+  border-radius: 3px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.n-filter-right-item {
+  position: relative;
+  padding-right: 20px;
+}
+
+.n-filter-right-item img {
+  width: 30px;
+  height: auto;
+  max-width: 100%;
+}
+
+.n-filter-right-item::after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 50%;
+  width: 2px;
+  background-color: #f6f6f6;
+}
+
+.n-coupons .top-item-content {
+  width: 100%;
+  min-height: 277px;
+  height: 100%;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.n-coupons button {
+  margin: 20px auto 0;
+  background-color: white;
+  height: 42px;
+  width: 158px;
+  border: none;
+  padding: 0;
+  border-radius: 3px;
+}
+
+.n-coupons button label {
+  color: #5c5c5c;
+  display: block;
+  margin-right: 10px;
+}
+
+.n-coupons button img {
+  width: 12px;
+}
+
+.n-coupons-top {
+  margin-left: -23px;
+  margin-right: -23px;
+}
+
+.n-coupons-top-item {
+  padding: 23px 23px 35px;
+}
+
+.n-coupons-top-item h3 {
+  padding: 24px 0 0;
+  font-size: 36px;
+}
+
+.n-coupons-top-item h4 {
+  margin-top: 10px;
+  margin-bottom: 13px;
+  font-size: 20px;
+}
+
+.n-coupons-top-item p {
+  margin-top: 12px;
+  margin-bottom: 33px;
+}
+
+.n-coupons-bt {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.n-coupons-bt-item {
+  padding: 10px;
+}
+
+.n-coupons-bt-item h3 {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.n-coupons-bt-item h4 {
+  font-size: 14px;
+}
+
+.n-f-10 {
+  font-size: 10px;
+}
+
+.bg-orange {
+  background-color: #FAA451;
+}
+
+.n-section .cp-content-bt {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.n-section button {
+  height: 30px;
+  width: 115px;
+  border: none;
+  padding: 0;
+  color: white;
+}
+
+.n-section button label {
+  display: block;
+  margin-right: 10px;
+}
+
+.n-section button img {
+  width: 12px;
+}
+
+.n-section h3.n-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.n-section h4 {
+  color: #656565;
+}
+
+.n-section .n-b-r_50 {
+  border-radius: 999px;
+  background-color: #f6f6f6;
+  padding: 5px 10px;
+}
+
+.n-section .n-section-content {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.n-section .n-cp-right span {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.n-section .section-content-item {
+  padding: 10px;
+}
+
+.n-section .section-content-item .list-cp-content {
+  border-radius: 10px;
+}
+
+.n-section .section-content-item .list-cp-content .cp-content-top {
+  background-color: red;
+  padding: 20px;
+}
+
+.n-section .section-content-item .list-cp-content .cp-content-top label {
+  color: #5c5c5c;
+}
+
+.n-section .section-content-item .list-cp-content .cp-content-top .money {
+  margin: 20px 0 0;
+}
+
+.n-section .section-content-item .list-cp-content .cp-content-top .price {
+  font-size: 20px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
