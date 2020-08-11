@@ -1,192 +1,200 @@
 .my-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 @media only screen and (min-width: 320px) {
   .my-row .my-col-xs-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
   .my-row .my-col-xs-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
   .my-row .my-col-xs-3 {
     width: 25%;
   }
   .my-row .my-col-xs-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
   .my-row .my-col-xs-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
   .my-row .my-col-xs-6 {
     width: 50%;
   }
   .my-row .my-col-xs-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
   .my-row .my-col-xs-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
   .my-row .my-col-xs-9 {
     width: 75%;
   }
   .my-row .my-col-xs-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
   .my-row .my-col-xs-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
   .my-row .my-col-xs-12 {
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 576px) {
   .my-row .my-col-sm-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
   .my-row .my-col-sm-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
   .my-row .my-col-sm-3 {
     width: 25%;
   }
   .my-row .my-col-sm-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
   .my-row .my-col-sm-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
   .my-row .my-col-sm-6 {
     width: 50%;
   }
   .my-row .my-col-sm-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
   .my-row .my-col-sm-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
   .my-row .my-col-sm-9 {
     width: 75%;
   }
   .my-row .my-col-sm-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
   .my-row .my-col-sm-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
   .my-row .my-col-sm-12 {
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .my-row .my-col-md-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
   .my-row .my-col-md-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
   .my-row .my-col-md-3 {
     width: 25%;
   }
   .my-row .my-col-md-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
   .my-row .my-col-md-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
   .my-row .my-col-md-6 {
     width: 50%;
   }
   .my-row .my-col-md-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
   .my-row .my-col-md-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
   .my-row .my-col-md-9 {
     width: 75%;
   }
   .my-row .my-col-md-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
   .my-row .my-col-md-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
   .my-row .my-col-md-12 {
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .my-row .my-col-lg-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
   .my-row .my-col-lg-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
   .my-row .my-col-lg-3 {
     width: 25%;
   }
   .my-row .my-col-lg-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
   .my-row .my-col-lg-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
   .my-row .my-col-lg-6 {
     width: 50%;
   }
   .my-row .my-col-lg-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
   .my-row .my-col-lg-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
   .my-row .my-col-lg-9 {
     width: 75%;
   }
   .my-row .my-col-lg-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
   .my-row .my-col-lg-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
   .my-row .my-col-lg-12 {
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .my-row .my-col-xl-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
   .my-row .my-col-xl-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
   .my-row .my-col-xl-3 {
     width: 25%;
   }
   .my-row .my-col-xl-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
   .my-row .my-col-xl-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
   .my-row .my-col-xl-6 {
     width: 50%;
   }
   .my-row .my-col-xl-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
   .my-row .my-col-xl-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
   .my-row .my-col-xl-9 {
     width: 75%;
   }
   .my-row .my-col-xl-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
   .my-row .my-col-xl-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
   .my-row .my-col-xl-12 {
     width: 100%;
@@ -194,31 +202,37 @@
 }
 
 @font-face {
-  font-family: "Noto Sans KR";
+  font-family: 'Noto Sans KR';
   font-weight: 100;
   src: url(./font/NotoSansKR-Thin.otf);
 }
+
 @font-face {
-  font-family: "Noto Sans KR";
+  font-family: 'Noto Sans KR';
   font-weight: 300;
   src: url(./font/NotoSansKR-Light.otf);
 }
+
 @font-face {
-  font-family: "Noto Sans KR";
+  font-family: 'Noto Sans KR';
   font-weight: 400;
   src: url(./font/NotoSansKR-Regular.otf);
 }
+
 @font-face {
-  font-family: "Noto Sans KR";
+  font-family: 'Noto Sans KR';
   font-weight: 500;
   src: url(./font/NotoSansKR-Medium.otf);
 }
+
 @font-face {
-  font-family: "Noto Sans KR";
+  font-family: 'Noto Sans KR';
   font-weight: 800;
   src: url(./font/NotoSansKR-Bold.otf);
 }
+
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -226,7 +240,7 @@
 
 html {
   font-size: 75%;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 ul,
@@ -275,7 +289,9 @@ select {
 }
 
 .align-center {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bold-100 {
@@ -303,6 +319,7 @@ select {
   max-width: 1160px;
   margin: auto;
 }
+
 @media only screen and (min-width: 320px) {
   .my-container {
     padding: 0 20px;
@@ -314,6 +331,7 @@ select {
     margin: 0;
   }
 }
+
 @media only screen and (min-width: 576px) {
   .my-container .nl-xs-col__row5 {
     width: 100%;
@@ -322,12 +340,14 @@ select {
     margin: 0;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .my-container .nl-xs-col__row5 {
     width: 20%;
     padding: 0;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .my-container .nl-xs-col__row5 {
     width: 20%;
@@ -339,23 +359,28 @@ select {
   font-size: 16px;
   border-top: 1px solid #bebebe;
 }
+
 .nl-footer .nl-white-part {
   background-color: #fff;
   padding: 50px 0 50px;
 }
+
 .nl-footer .nl-grey-part {
   background-color: #f3f3f3;
   padding: 25px 0 40px;
 }
+
 .nl-footer .nl-title-ft {
   font-weight: 800;
   margin-bottom: 20px;
 }
+
 .nl-footer .nl-item__link {
   display: block;
   color: #656565;
   margin-bottom: 20px;
 }
+
 .nl-footer .nl-icon {
   position: relative;
   bottom: -3px;
@@ -417,13 +442,17 @@ select {
   font-size: 26px;
   font-weight: 800;
   margin-bottom: 34px;
+  margin-top: 62px;
 }
+
 .type-1-5 .nl-ctn__1_5 {
   width: 100%;
 }
+
 .type-1-5 .nl-ctn__1_5 .nl-item {
   margin: 0 9px 70px;
 }
+
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-img-part .nl-pic-item {
   display: block;
   height: 180px;
@@ -433,33 +462,22 @@ select {
   background-position: center;
   border-radius: 7px;
 }
+
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-name {
   font-weight: 600;
   font-size: 20px;
   margin-top: 19px;
 }
+
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-des {
   margin-top: 2px;
   font-size: 1.25rem;
   color: #5e5e5e;
 }
+
 @media only screen and (min-width: 320px) {
-  .type-1-5 .nl-ctn__1_5 {
-    margin: 0;
-  }
-}
-@media only screen and (min-width: 576px) {
-  .type-1-5 .nl-ctn__1_5 {
-    margin: 0;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .type-1-5 .nl-ctn__1_5 {
+  .type-1-5 .nl-wrapper__1_5 {
     margin: 0 -9px;
   }
 }
-@media only screen and (min-width: 992px) {
-  .type-1-5 .nl-ctn__1_5 {
-    margin: 0 -9px;
-  }
-}
+/*# sourceMappingURL=common.css.map */
