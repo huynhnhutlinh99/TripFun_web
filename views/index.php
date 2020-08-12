@@ -14,8 +14,8 @@
     <script type="text/javascript" src="../public/js/OwlCarousel2-2.3.4/owl.carousel.js"></script>
     <link rel="stylesheet" type="text/css" href="../public/js/OwlCarousel2-2.3.4/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="../public/js/OwlCarousel2-2.3.4/owl.theme.default.css">
-    <script type="text/javascript" src="../public/js/ht-script.js"></script>
-
+    <script type="text/javascript" src="../public/js/ht-script.js" ></script>
+    <link rel="stylesheet" type="text/css" href="../public/css/nhat/style.css">
 </head>
 
 <body>
