@@ -1,6 +1,6 @@
 $(document).ready(function () {
   //page 1.6
-  $(".owl-carousel").owlCarousel({
+  $(".owl-carousel.type-1").owlCarousel({
     loop: true,
     dots: false,
     margin: 23,
@@ -31,4 +31,41 @@ $(document).ready(function () {
     $(".ht-slider .ht-1").removeClass('active');
     $(this).addClass('active');
   })
+
+
+  //page 1.1
+  $(".ht-slider.type-2").owlCarousel({
+    loop: true,
+    dots: false,
+    margin: 25,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 3,
+        nav: false
+      },
+      1000: {
+        items: 5,
+        nav: true,
+        loop: false
+      }
+    }
+  });
+  
+  $(".ht-banners").owlCarousel({
+    loop: true,
+    dots: false,
+    margin: 40,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true
+      }
+    }
+  });
 });
