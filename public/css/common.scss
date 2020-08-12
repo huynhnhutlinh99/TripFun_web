@@ -297,6 +297,7 @@ $color_white: #fff;
 }
 //page 1.5
 .type-1-5{
+  font-size: 16px;
   .nl-title{
     font-size: 26px;
     font-weight: 800;
@@ -330,6 +331,14 @@ $color_white: #fff;
       }
     }
   }
+  .ht-list-box-1{
+    .box-1{
+      span{
+        font-size: 1.3333rem;
+        margin-top: 0;
+      }
+    }
+  }
   @include rs-xs {
     .nl-wrapper__1_5{
       margin: 0 -9px;
@@ -342,4 +351,9 @@ $color_white: #fff;
   // }
   // @include rs-lg {
   // }
+}
+.type-1-1{
+  .nl-title{
+    font-size: 2rem;
+  }
 }
