@@ -1,25 +1,23 @@
 <?php include('../includes/head.meta.php')?>
 <div class="type-1-5">
+    <div class="nl-banner">
+        <img src="../public/img/1.5_banner.png" alt="">
+    </div>
     <div class="my-container">
-        <div class="list-box-1">
-            <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-01.jpg" alt="">
+        <div class="ht-list-box-1">
+            <div class="ht-col-2 box-1 active">
                 <span>삭제되므로</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-02.jpg" alt="">
                 <span>있도록 염두에두</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-03.jpg" alt="">
                 <span>있으며 내 활동</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-04.jpg" alt="">
                 <span>있염두에두</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-05.jpg" alt="">
                 <span>있으활동</span>
             </div>
         </div>
