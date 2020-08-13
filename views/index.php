@@ -20,6 +20,7 @@
 
 <body>
 <?php
+include_once '../includes/header_bar.php';
 
 ?>
 </body>
