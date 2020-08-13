@@ -389,3 +389,26 @@ $color_white: #fff;
     }
   }
 }
+
+.nl-header-bar{
+  width: 100%;
+  .nl-top-line{
+    display: flex;
+    width: 100%;
+
+    .nl-left-part{
+      width: 50%;
+      a{
+        color: red;
+        &:last-child{
+          border-left: 1px solid #666;
+      }
+    }
+    .nl-item__link{
+      position: relative;
+      padding: 0 15px;
+      color: #666;
+    }
+  }
+  
+}

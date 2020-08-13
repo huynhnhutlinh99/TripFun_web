@@ -539,4 +539,35 @@ select {
   opacity: 1;
   border-bottom-color: #035aa7;
 }
+
+.nl-header-bar {
+  width: 100%;
+}
+
+.nl-header-bar .nl-top-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.nl-header-bar .nl-top-line .nl-left-part {
+  width: 50%;
+}
+
+.nl-header-bar .nl-top-line .nl-left-part .nl-item__link:first-child {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  border-right: 1px solid #666;
+}
+
+.nl-header-bar .nl-top-line .nl-item__link {
+  position: relative;
+  padding: 0 15px;
+  color: #666;
+}
 /*# sourceMappingURL=common.css.map */
