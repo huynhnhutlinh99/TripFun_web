@@ -346,7 +346,7 @@ select {
 
 @media only screen and (min-width: 768px) {
   .my-container {
-    padding: 0;
+    padding: 0 20px;
   }
   .my-container .nl-xs-col__row5 {
     width: 20%;
@@ -578,7 +578,7 @@ select {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  height: 88px;
+  min-height: 88px;
 }
 
 .nl-header-bar .nl-top-line .nl-left-part {
@@ -673,7 +673,7 @@ select {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 50%;
+  width: 70%;
   height: 100%;
   padding-right: 30px;
 }
@@ -688,7 +688,7 @@ select {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 50%;
+  width: 30%;
   height: 100%;
 }
 
@@ -705,5 +705,32 @@ select {
 
 .nl-header-bar .nl-bottom-line .nl-item__link.active {
   color: #ff702e;
+}
+
+@media only screen and (max-width: 576px) {
+  .nl-header-bar .nl-top-line {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nl-header-bar .nl-top-line .nl-left-part {
+    width: 100%;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nl-header-bar .nl-top-line .nl-left-part a {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .nl-header-bar .nl-top-line .nl-left-part a.nl-logo {
+    margin-top: 30px;
+  }
+  .nl-header-bar .nl-top-line .nl-left-part a.nl-item__link {
+    border-left: 0;
+  }
+  .nl-header-bar .nl-top-line .nl-left-part a .nl-logo-page {
+    width: 114px;
+  }
 }
 /*# sourceMappingURL=common.css.map */
