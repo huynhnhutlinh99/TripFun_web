@@ -877,6 +877,121 @@
     top: 26px;
     color: #613214;
 }
+
+/* ====================== Page 1.2 */
+.ht-ontop-img.type-1 .ht-content {
+    position: absolute;
+    top: 139px;
+    width: 1160px;
+}
+.ht-ontop-img.type-1 .ht-banner {
+    height: 419px;
+}
+
+.ht-ontop-img.type-1 .part-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 21px;
+}
+.ht-ontop-img.type-1 .ht-right {
+    display: flex;
+}
+.ht-ontop-img.type-1 .part-1>a {
+    width: 137px;
+    height: 38px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.ht-ontop-img.type-1 .ht-link-2 {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.ht-ontop-img.type-1 .ht-link-2:first-child {
+    margin-right: 20px;
+}
+.ht-ontop-img.type-1 .ht-link-2>img {
+    margin-left: 10px;
+}
+.ht-ontop-img.type-1 .part-1 .ht-right {
+    color: white;
+}
+.ht-ontop-img.type-1 .ht-submit {
+    width: 147px;
+    height: 63px;
+    background-color: #2a96ee;
+    color: white;
+    border-radius: 4px;
+    margin-left: 11px;
+    border: none;
+}
+.ht-ontop-img.type-1 .part-2 {
+    display: flex;
+}
+
+.ht-ontop-img.type-1 .ht-col-ct:nth-child(2) {
+    display: flex;
+
+}
+.ht-ontop-img.type-1 .ht-col-ct>input {
+    width: 602px;
+    height: 63px;
+    padding: 0 22px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 12px;
+    font-size: 18px;
+}
+.ht-ontop-img.type-1 .ht-col-ct .date {
+    height: 63px;
+    width: 386px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.ht-ontop-img.type-1 .ht-col-ct .date>img {
+    height: 21px;
+}
+.ht-ontop-img.type-1 .ht-col-ct .date>img:nth-child(3){
+    height: 9px;
+}
+.ht-ontop-img.type-1 .ht-col-ct .date>input {
+    width: 100px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+}
+.ht-ontop-img.type-1 .part-3 .ht-menu {
+    color: #51514f;
+    display: flex;
+    background-color: white;
+    width: 736px;
+    height: 63px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+.ht-ontop-img.type-1 .part-3 .ht-menu .active {
+    color: #fe6f2d;
+}
+
+.ht-list.ht-1_2  .ht-list-img .ht-img {
+    width: calc(50% - 14px);
+    height: 218px;
+}
+.ht-list.ht-1_2 .ht-list-img .ht-img>span {
+    width: 177px;
+}
 /* =================================RESPONSIVE================================== */
 @media only screen and (max-width: 1024px) {
     /* For mobile phones: */
