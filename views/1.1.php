@@ -143,6 +143,7 @@ include_once './index.php';
                             <p class="ht-pp">다 줘, 다 줘, 망설이지 말고 숨겨 줘잊어 버려</p>
                             <p class="ht-pp">다 줘, 다 줘, 망설이지 말고 숨겨 줘잊어 버려</p>
                         </div>
+                        
                     </div>
                     <a href="#" class="ht-direct">다가가우리</a>
                 </div>
@@ -178,7 +179,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -200,7 +201,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -222,7 +223,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -244,7 +245,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -266,7 +267,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -288,7 +289,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -315,7 +316,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -337,7 +338,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -359,7 +360,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -381,7 +382,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -403,7 +404,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -425,7 +426,7 @@ include_once './index.php';
                         <div class="ht-gray">
                             <div class="ht-star">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5을)</span></span>
+                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
                             </div>
                             서서히섞이 . 것같아
                         </div>
@@ -440,11 +441,58 @@ include_once './index.php';
                 </div>
             </div>
         </div>
-        <div class="ht-bot-footer">
-            <a href="#">
-                달과 별을 향해 짜는 손
-            </a>
 
+        <div class="ht-list ht-1_1">
+            <h2>수 없습니다</h2>
+            <div class="ht-list-img type-2">
+                <div class="ht-col-2 img-1 ht-img">
+                    <span>삭로</span>
+                    <div class="ht-info">
+                        <div class="ht-title">있으내섹션에서 번역</div>
+                        <div class="sub-title">장해야합니다</div>
+                    </div>
+                </div>
+                <div class="ht-col-2 img-2 ht-img">
+                    <span>삭로</span>
+                    <div class="ht-info">
+                        <div class="ht-title">있으내섹션에서 번역</div>
+                        <div class="sub-title">장해야합니다</div>
+                    </div>
+                </div>
+                <div class="ht-col-1 img-1 ht-img">
+                    <span>삭로</span>
+                    <div class="ht-info">
+                        <div class="ht-title">있으내섹션에서 번역</div>
+                        <div class="sub-title">장해야합니다</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="n-coupons-bt my-row ht-add">
+            <div class="my-col-xs-12 my-col-md-4 n-coupons-bt-item">
+                <div class="bt-item-content  bg-3 ">
+                    <div class="ht-title"> 20,000 중에 쉽 액세스</div>
+                    <div class="ht-mid"> 상태에서만 <br> 액세스</div>
+                    <div class="ht-bot">중에 쉽게 액세스</div>
+                </div>
+            </div>
+            <div class="my-col-xs-12 my-col-md-4 n-coupons-bt-item">
+                <div class="bt-item-content bg-4 ">
+                    <div class="ht-title"> 20,000 중에 쉽 액세스</div>
+                    <div class="ht-mid"> 상태에서만 <br> 액세스</div>
+                    <div class="ht-bot">중에 쉽게 액세스</div>
+                </div>
+            </div>
+            <div class="my-col-xs-12 my-col-md-4 n-coupons-bt-item">
+                <div class="bt-item-content bg-5">
+                    <div class="ht-title"> 20,000 중에 쉽 액세스</div>
+                    <div class="ht-mid"> 상태에서만 <br> 액세스</div>
+                    <div class="ht-bot">중에 쉽게 액세스</div>
+                </div>
+            </div>
+            
         </div>
     </div>
 </div>
