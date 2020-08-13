@@ -41,6 +41,17 @@
 .ht-container .my-container {
     padding: 0;
 }
+.ht-icon-r {
+    height: 8px;
+    width: 8px;
+    margin-left: 5px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: 1px;
+}
 .ht-title {
     font-size: 20px;
     font-weight: 500;
@@ -48,9 +59,10 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    line-height: 20px;
 }
 .ht-ontop {
-    height: 205px;
+    height: 155px;
     background-color: #eff2f9;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -61,7 +73,7 @@
 }
 
 .ht-ontop .my-container .ht-title {
-    font-size: 18px;
+    font-size: 13px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -72,15 +84,16 @@
     color: #292929;
 }
 
-.ht-ontop .ht-title p {
+.ht-ontop .my-container>p >span {
     font-size: 22px;
     color: #535458;
     line-height: 22px;
+    margin-right: 10px;
+    font-weight: 500;
 }
-
 .ht-ontop .my-container>p {
-    margin-top: 18px;
-    font-size: 14px;
+    margin-top: 15px;
+    font-size: 17px;
     color: #919598;
 }
 
@@ -91,12 +104,12 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 73px;
+    margin-top: 49px;
     cursor: pointer;
 }
 
 .ht-list-box-1 .box-1 {
-    height: 108px;
+    height: 117px;
     border: 1px solid hsl(210, 40%, 84%);
     border-radius: 10px;
     display: flex;
@@ -119,14 +132,15 @@
 }
 
 .ht-container .ht-list {
-    margin-top: 77px;
+    margin-top: 55px;
+    position: relative;
 }
 
 .ht-container .ht-list-img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 39px;
+    margin-top: 12px;
 }
 
 .ht-container .ht-list-img .ht-img {
@@ -630,15 +644,18 @@
     display: flex;
     align-items: center;
 }
-.ht-info .ht-direct {
+.ht-info .ht-direct,.ht-list .ht-direct {
     border: 1px solid #e1e1e1;
     height: 34px;
     width: 114px;
-    text-align: center;
     line-height: 34px;
     position: absolute;
     bottom: -56px;
     right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
 }
 .ht-contain-banner {
     margin-top: 133px;
@@ -738,6 +755,128 @@
     font-weight: 500;
     font-size: 18px;
 }
+.ht-list .ht-direct {
+    right: 0;
+    top: -9px;
+}
+
+/* ============ Page 1.3 */
+.ht-list-box-2 {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.ht-list-box-2 .ht-main-box {
+    height: 76px;
+    width: 146px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 32px;
+}
+.ht-list-box-2 .ht-main-box .ht-title {
+    color: black;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    font-size: 16px;
+}
+.ht-list-box-2 .ht-list-items {
+    display: flex;
+    width: calc(100% - 202px);
+    flex-wrap: wrap;
+}
+.ht-list-box-2 .ht-box-item {
+    height: 76px;
+    width: 128px;
+    border: 1px solid #dfe8f1;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+.ht-list-box-2 .ht-box-item .ht-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.ht-list-box-2 .ht-box-item .sub-title {
+    color: #848484;
+    font-size: 13px;
+    font-weight: 300;
+}
+.ht-list-box-2 .ht-option {
+    width: 24px;
+    height: 76px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ht-list-box-2.type-2 .ht-option .ht-arrow-down {
+    margin-left: 5px;
+}
+.ht-arrow-down {
+    border: 5px solid transparent;
+    border-top: 5px solid #000000;
+    display: inline-block;
+}
+.ht-banner-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59px;
+}
+.ht-banner-2 .ht-content {
+    position: absolute;
+    top: 45px;
+    left: 57px;
+}
+.ht-banner-2 .ht-left {
+    width: 694px;
+    height: 327px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.ht-banner-2 .ht-left .ht-title {
+    font-size: 42px;
+    line-height: 56px;
+    font-weight: bold;
+    margin-bottom: 27px;   
+}
+.ht-banner-2 .ht-left .sub-title {
+    font-size: 23px;
+}
+.ht-banner-2 .ht-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ht-banner-2 .ht-right>div {
+    height: 154px;
+    width: 446px;
+    background-size: cover;
+    background-position: 70%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.ht-banner-2 .ht-right>div>.ht-content {
+    position: absolute;
+    left: 32px;
+    font-size: 23px;
+    line-height: 32px;
+    top: 26px;
+    color: #613214;
+}
 /* =================================RESPONSIVE================================== */
 @media only screen and (max-width: 1024px) {
     /* For mobile phones: */
@@ -783,6 +922,19 @@
     .ht-list.ht-1_1 .ht-list-img .ht-img {
         width: 100%;
     }
+    .ht-list-box-2 .ht-box-item {
+        width: 122px;
+    }
+    .ht-banner-2 {
+        flex-wrap: wrap;
+    }
+    .ht-banner-2 .ht-left ,.ht-banner-2 .ht-right, .ht-banner-2 .ht-right>div{
+        width: 100%;
+    }
+    .ht-banner-2 .ht-right>div {
+        margin-top: 20px;
+    }
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -820,6 +972,21 @@
     }
     .ht-contain-banner .owl-nav button {
         top: 277px !important;
+    }
+    .ht-list-box-2 .ht-main-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .ht-list-box-2 .ht-list-items {
+        width: calc(100% - 24px);
+    }
+    .ht-list-box-2 .ht-box-item {
+        width: 47%;
+    }
+    .ht-banner-2 .ht-left .ht-title {
+        font-size: 1.8rem;
+        line-height: 2.7rem;
     }
 }
 

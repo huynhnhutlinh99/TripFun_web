@@ -39,6 +39,7 @@ include_once './index.php';
         </div>
         <div class="ht-list">
             <h2>수 없습니다</h2>
+            <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel owl-theme type-2">
                 <div class="ht-item" style="background-image: url(https://www.kynghidongduong.vn/images/product/img2/vinh-ha-long-kynghidongduong-vn.jpg);">
                     <span class="ht-title">향해</span>
@@ -103,7 +104,7 @@ include_once './index.php';
                         <div class="ht-img" style="background-image: url(https://cdn.shopify.com/s/files/1/0043/8471/8938/products/157351645461516877.jpg?v=1573516507);"></div>
                         <p class="ht-pp">다 줘, 다 줘, 망설이지 말고 숨겨 줘잊어 버려 수줍음도 잊어 다가가우리 둘의 하늘에 서서히 녹아 드는 듯눈을 감고, 영혼을 달과 별을 향해 짜는 손</p>
                     </div>
-                    <a href="#" class="ht-direct" style="margin-right: 21px;">다가가우리</a>
+                    <a href="#" class="ht-direct" style="margin-right: 21px;">다가가우리 <span class="ht-icon-r"></span></a>
                 </div>
                 <div class="ht-col-1_3">
                     <div class="ht-col-1_1 right">
@@ -145,7 +146,7 @@ include_once './index.php';
                         </div>
                         
                     </div>
-                    <a href="#" class="ht-direct">다가가우리</a>
+                    <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
                 </div>
             </div>
 
@@ -169,6 +170,7 @@ include_once './index.php';
 
         <div class="ht-list">
             <h2>수 없습니다</h2>
+            <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
                     <div class="img-2 ht-img">
@@ -306,6 +308,7 @@ include_once './index.php';
         </div>
         <div class="ht-list">
             <h2>수 없습니다</h2>
+            <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
                     <div class="img-2 ht-img">
