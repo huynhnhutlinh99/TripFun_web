@@ -1,5 +1,6 @@
 <?php
 include_once './index.php';
+include_once '../includes/header_bar.php';
 ?>
 <div class="ht-container">
     <div class="ht-ontop-img">
@@ -499,3 +500,7 @@ include_once './index.php';
         </div>
     </div>
 </div>
+
+<?php
+include_once '../includes/footer.php';
+?>
