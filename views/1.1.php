@@ -40,7 +40,7 @@ include_once './index.php';
         </div>
         <div class="ht-list">
             <h2>수 없습니다</h2>
-            <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
+            <a href="#" class="ht-direct type-2">다가가우우리 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel owl-theme type-2">
                 <div class="ht-item" style="background-image: url(https://www.kynghidongduong.vn/images/product/img2/vinh-ha-long-kynghidongduong-vn.jpg);">
                     <span class="ht-title">향해</span>
@@ -71,7 +71,7 @@ include_once './index.php';
                 <div class="ht-col-2_3">
                     <div class="ht-col-1_2 type-1">
                         <div class="row-1 bold-500">숨겨
-                            <div class="ht-star mg-l-10">
+                            <div class="ht-star mg-l-13">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
@@ -89,7 +89,7 @@ include_once './index.php';
                     </div>
                     <div class="ht-col-1_2 type-1">
                         <div class="row-1 bold-500">숨겨
-                            <div class="ht-star mg-l-10">
+                            <div class="ht-star mg-l-13">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
                                 <img src="../public/img/ht-images/1.1-star.svg" alt="">
@@ -446,8 +446,8 @@ include_once './index.php';
             </div>
         </div>
 
-        <div class="ht-list ht-1_1">
-            <h2>수 없습니다</h2>
+        <div class="ht-list ht-1_1" style="margin-top: 78px">
+            <h2>수 없습니다 <span class="sub-title">로는 로그인 한 상태에서만 번역</span></h2>
             <div class="ht-list-img type-2">
                 <div class="ht-col-2 img-1 ht-img">
                     <span>삭로</span>

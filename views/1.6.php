@@ -215,3 +215,7 @@ include_once './index.php';
         </div>
     </div>
 </div>
+
+<?php
+include_once '../includes/footer.php';
+?>
