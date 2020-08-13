@@ -392,23 +392,127 @@ $color_white: #fff;
 
 .nl-header-bar{
   width: 100%;
+  .nl-logo{
+    display: inline-block;
+    height: 34px;
+    width: 114px;
+    margin-right: 5px;
+    .nl-logo-page{
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      background-image: url(../img/tripfun_logo-01.svg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
   .nl-top-line{
     display: flex;
+    align-items: center;
     width: 100%;
+    height: 88px;
 
     .nl-left-part{
+      display: flex;
+      align-items: center;
       width: 50%;
-      a{
-        color: red;
+      height: 100%;
+      padding-right: 30px;
+
+      .nl-item__link{
         &:last-child{
-          border-left: 1px solid #666;
+          &:after{
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 0;
+            width: 0;
+            height: 12px;
+            border-left: 1px solid #aaa;
+          }
+          
+        }
       }
     }
     .nl-item__link{
       position: relative;
+      display: inline-block;
       padding: 0 15px;
       color: #666;
+      line-height: 1;
+      font-size: 14px;
+    }
+    .nl-right-part{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      
+      .nl-btn-priamry{
+        display: inline-block;
+        justify-content: center;
+        line-height: 30px;
+        width: 90px;
+        background-color: #2696ee;
+        color: #fff;
+        text-align: center;
+        border-radius: 3px;
+        margin-left: 5px;
+        font-size: 14px;
+      }
+      .nl-item__link{
+        &:first-child{
+          &:after{
+            content: "";
+            position: absolute;
+            top: 2px;
+            right: 0;
+            width: 0;
+            height: 12px;
+            border-left: 1px solid #aaa;
+          }
+          
+        }
+      }
     }
   }
-  
+  .nl-bottom-line{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 37px;
+    padding-bottom: 20px;
+    .nl-left-part{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 50%;
+      height: 100%;
+      padding-right: 30px;
+    }
+    .nl-right-part{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 50%;
+      height: 100%;
+
+      .nl-item__link{
+        &:last-child{
+          padding-left: 42px;
+        }
+      }
+    }
+    .nl-item__link{
+      font-size: 15px;
+      display: inline-block;
+      line-height: 1;
+      color: #4d4d4d;
+      &.active{
+        color: #ff702e;
+      }
+    }
+  }
 }
