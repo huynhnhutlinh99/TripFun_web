@@ -261,30 +261,29 @@ $color_grey_5e: #5e5e5e;
 $color_white: #fff;
 
 .nl-footer{
-  font-size: 16px;
+  font-size: 14px;
   border-top: 1px solid $color_grey_be;
 
   .nl-white-part{
     background-color: $color_white;
-    padding: 50px 0 50px;
+    padding: 39px 0 28px;
   }
   .nl-grey-part{
     background-color: $color_grey_f3;
-    padding: 25px 0 40px;
+    padding: 22px 0 40px;
   }
   .nl-title-ft{
     font-weight: 800;
     margin-bottom: 20px;
-    
   }
   .nl-item__link{
     display: block;
     color: $color_grey_65;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
   }
   .nl-icon{
     position: relative;
-    bottom: -3px;
     margin-right: 14px;
   }
 }
@@ -323,15 +322,18 @@ $color_white: #fff;
 .nl-text-at-bt__footer{
   position: relative;
   color: $color_grey_65;
-  font-size: 14px;
+  font-size: 12px;
   display: inline-block;
+  &.nl-line-end{
+    margin-top: 21px;
+  }
 }
 .line-single{
   display: inline-block;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 300;
-  margin: 0 5px 5px 5px;
+  margin: 0 5p;
 }
 //page 1.5
 .type-1-5{
@@ -344,12 +346,13 @@ $color_white: #fff;
   }
   .nl-ctn__1_5{
     width: 100%;
+    padding-bottom: 77px;
     .nl-item{
-      margin: 0 14px 70px;
+      margin: 0 14px 52px;
       .nl-img-part{
         .nl-pic-item{
           display: block;
-          height: 180px;
+          height: 186px;
           width: 100%;
           background-image: url(../img/landmark-81-1.jpg);
           background-size: cover;
@@ -359,12 +362,12 @@ $color_white: #fff;
       }
       .nl-name{
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 19px;
       }
       .nl-des{
-        margin-top: 2px;
-        font-size: 1.25rem;
+        margin-top: 3px;
+        font-size: 14px;
         color: $color_grey_5e;
       }
     }

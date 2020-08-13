@@ -383,18 +383,18 @@ select {
 }
 
 .nl-footer {
-  font-size: 16px;
+  font-size: 14px;
   border-top: 1px solid #bebebe;
 }
 
 .nl-footer .nl-white-part {
   background-color: #fff;
-  padding: 50px 0 50px;
+  padding: 39px 0 28px;
 }
 
 .nl-footer .nl-grey-part {
   background-color: #f3f3f3;
-  padding: 25px 0 40px;
+  padding: 22px 0 40px;
 }
 
 .nl-footer .nl-title-ft {
@@ -405,12 +405,12 @@ select {
 .nl-footer .nl-item__link {
   display: block;
   color: #656565;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .nl-footer .nl-icon {
   position: relative;
-  bottom: -3px;
   margin-right: 14px;
 }
 
@@ -453,16 +453,20 @@ select {
 .nl-text-at-bt__footer {
   position: relative;
   color: #656565;
-  font-size: 14px;
+  font-size: 12px;
   display: inline-block;
+}
+
+.nl-text-at-bt__footer.nl-line-end {
+  margin-top: 21px;
 }
 
 .line-single {
   display: inline-block;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 300;
-  margin: 0 5px 5px 5px;
+  margin: 0 5p;
 }
 
 .type-1-5 {
@@ -478,15 +482,16 @@ select {
 
 .type-1-5 .nl-ctn__1_5 {
   width: 100%;
+  padding-bottom: 77px;
 }
 
 .type-1-5 .nl-ctn__1_5 .nl-item {
-  margin: 0 14px 70px;
+  margin: 0 14px 52px;
 }
 
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-img-part .nl-pic-item {
   display: block;
-  height: 180px;
+  height: 186px;
   width: 100%;
   background-image: url(../img/landmark-81-1.jpg);
   background-size: cover;
@@ -496,13 +501,13 @@ select {
 
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-name {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 19px;
 }
 
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-des {
-  margin-top: 2px;
-  font-size: 1.25rem;
+  margin-top: 3px;
+  font-size: 14px;
   color: #5e5e5e;
 }
 
