@@ -10,19 +10,19 @@
     <div class="my-container">
         <div class="ht-list-box-1">
             <div class="ht-col-2 box-1 active">
-                <span>삭제되므로</span>
+                <span>미주</span>
             </div>
             <div class="ht-col-2 box-1">
-                <span>있도록 염두에두</span>
+                <span>유럽</span>
             </div>
             <div class="ht-col-2 box-1">
-                <span>있으며 내 활동</span>
+                <span>일본</span>
             </div>
             <div class="ht-col-2 box-1">
-                <span>있염두에두</span>
+                <span>아시아 / 국내</span>
             </div>
             <div class="ht-col-2 box-1">
-                <span>있으활동</span>
+                <span>오세아니아 / 남태평양</span>
             </div>
         </div>
         <h2 class="nl-title">

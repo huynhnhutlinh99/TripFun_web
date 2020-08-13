@@ -330,6 +330,12 @@ select {
   .my-container .nl-ctn__1_5 {
     margin: 0;
   }
+  .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
+    width: 70%;
+  }
+  .my-container .nl-header-bar .nl-bottom-line .nl-right-part {
+    width: 30%;
+  }
 }
 
 @media only screen and (min-width: 576px) {
@@ -342,6 +348,9 @@ select {
   .my-container .nl-ctn__1_5 {
     margin: 0;
   }
+  .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -351,6 +360,9 @@ select {
   .my-container .nl-xs-col__row5 {
     width: 20%;
     padding: 0;
+  }
+  .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
+    width: 70%;
   }
 }
 
@@ -362,21 +374,27 @@ select {
     width: 20%;
     padding: 0;
   }
+  .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
+    width: 50%;
+  }
+  .my-container .nl-header-bar .nl-bottom-line .nl-right-part {
+    width: 50%;
+  }
 }
 
 .nl-footer {
-  font-size: 16px;
+  font-size: 14px;
   border-top: 1px solid #bebebe;
 }
 
 .nl-footer .nl-white-part {
   background-color: #fff;
-  padding: 50px 0 50px;
+  padding: 39px 0 28px;
 }
 
 .nl-footer .nl-grey-part {
   background-color: #f3f3f3;
-  padding: 25px 0 40px;
+  padding: 22px 0 40px;
 }
 
 .nl-footer .nl-title-ft {
@@ -387,12 +405,12 @@ select {
 .nl-footer .nl-item__link {
   display: block;
   color: #656565;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .nl-footer .nl-icon {
   position: relative;
-  bottom: -3px;
   margin-right: 14px;
 }
 
@@ -435,40 +453,51 @@ select {
 .nl-text-at-bt__footer {
   position: relative;
   color: #656565;
-  font-size: 14px;
+  font-size: 12px;
   display: inline-block;
+}
+
+.nl-text-at-bt__footer.nl-line-end {
+  margin-top: 21px;
 }
 
 .line-single {
   display: inline-block;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 300;
-  margin: 0 5px 5px 5px;
+  margin: 0 5p;
 }
 
 .type-1-5 {
   font-size: 16px;
 }
 
+.type-1-5 .nl-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .type-1-5 .nl-title {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 800;
-  margin-bottom: 34px;
+  margin-bottom: 24px;
   margin-top: 62px;
 }
 
 .type-1-5 .nl-ctn__1_5 {
   width: 100%;
+  padding-bottom: 77px;
 }
 
 .type-1-5 .nl-ctn__1_5 .nl-item {
-  margin: 0 14px 70px;
+  margin: 0 14px 52px;
 }
 
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-img-part .nl-pic-item {
   display: block;
-  height: 180px;
+  height: 186px;
   width: 100%;
   background-image: url(../img/landmark-81-1.jpg);
   background-size: cover;
@@ -478,13 +507,13 @@ select {
 
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-name {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 19px;
 }
 
 .type-1-5 .nl-ctn__1_5 .nl-item .nl-des {
-  margin-top: 2px;
-  font-size: 1.25rem;
+  margin-top: 3px;
+  font-size: 14px;
   color: #5e5e5e;
 }
 
@@ -673,7 +702,7 @@ select {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 70%;
+  width: 50%;
   max-width: 580px;
   height: 100%;
   padding-right: 30px;
@@ -689,7 +718,7 @@ select {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 30%;
+  width: 50%;
   height: 100%;
 }
 
@@ -709,29 +738,11 @@ select {
 }
 
 @media only screen and (max-width: 576px) {
-  .nl-header-bar .nl-top-line {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .nl-header-bar .nl-item__link {
+    display: none !important;
   }
-  .nl-header-bar .nl-top-line .nl-left-part {
-    width: 100%;
-    padding: 0;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .nl-header-bar .nl-top-line .nl-left-part a {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-  }
-  .nl-header-bar .nl-top-line .nl-left-part a.nl-logo {
-    margin-top: 30px;
-  }
-  .nl-header-bar .nl-top-line .nl-left-part a .nl-logo-page {
-    width: 114px;
-  }
-  .nl-header-bar .nl-top-line .nl-left-part .nl-item__link:last-child:after {
-    border-left: 0 !important;
+  .nl-header-bar .nl-bottom-line {
+    display: none;
   }
 }
 /*# sourceMappingURL=common.css.map */
