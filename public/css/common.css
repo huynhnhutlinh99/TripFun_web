@@ -330,6 +330,12 @@ select {
   .my-container .nl-ctn__1_5 {
     margin: 0;
   }
+  .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
+    width: 70%;
+  }
+  .my-container .nl-header-bar .nl-bottom-line .nl-right-part {
+    width: 30%;
+  }
 }
 
 @media only screen and (min-width: 576px) {
@@ -342,6 +348,9 @@ select {
   .my-container .nl-ctn__1_5 {
     margin: 0;
   }
+  .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -352,6 +361,9 @@ select {
     width: 20%;
     padding: 0;
   }
+  .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -361,6 +373,12 @@ select {
   .my-container .nl-xs-col__row5 {
     width: 20%;
     padding: 0;
+  }
+  .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
+    width: 50%;
+  }
+  .my-container .nl-header-bar .nl-bottom-line .nl-right-part {
+    width: 50%;
   }
 }
 
@@ -673,7 +691,7 @@ select {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 70%;
+  width: 50%;
   max-width: 580px;
   height: 100%;
   padding-right: 30px;
@@ -689,7 +707,7 @@ select {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 30%;
+  width: 50%;
   height: 100%;
 }
 
@@ -709,29 +727,11 @@ select {
 }
 
 @media only screen and (max-width: 576px) {
-  .nl-header-bar .nl-top-line {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .nl-header-bar .nl-item__link {
+    display: none !important;
   }
-  .nl-header-bar .nl-top-line .nl-left-part {
-    width: 100%;
-    padding: 0;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .nl-header-bar .nl-top-line .nl-left-part a {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-  }
-  .nl-header-bar .nl-top-line .nl-left-part a.nl-logo {
-    margin-top: 30px;
-  }
-  .nl-header-bar .nl-top-line .nl-left-part a .nl-logo-page {
-    width: 114px;
-  }
-  .nl-header-bar .nl-top-line .nl-left-part .nl-item__link:last-child:after {
-    border-left: 0 !important;
+  .nl-header-bar .nl-bottom-line {
+    display: none;
   }
 }
 /*# sourceMappingURL=common.css.map */

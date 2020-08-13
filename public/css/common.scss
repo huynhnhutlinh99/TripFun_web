@@ -194,6 +194,16 @@ select {
     .nl-ctn__1_5{
       margin: 0;
     }
+    .nl-header-bar{
+      .nl-bottom-line{
+        .nl-left-part{
+          width: 70%;
+        }
+        .nl-right-part{
+          width: 30%;
+        }
+      }
+    }
   }
   @include rs-sm {
     padding: 0 20px;
@@ -203,6 +213,13 @@ select {
     .nl-ctn__1_5{
       margin: 0;
     }
+    .nl-header-bar{
+      .nl-bottom-line{
+        .nl-left-part{
+          width: 70%;
+        }
+      }
+    }
   }
   @include rs-md {
     padding: 0 20px;
@@ -210,12 +227,30 @@ select {
       width: 20%;
       padding: 0;
     }
+
+    .nl-header-bar{
+      .nl-bottom-line{
+        .nl-left-part{
+          width: 70%;
+        }
+      }
+    }
   }
   @include rs-lg {
     padding: 0;
     .nl-xs-col__row5{
       width: 20%;
       padding: 0;
+    }
+    .nl-header-bar{
+      .nl-bottom-line{
+        .nl-left-part{
+          width: 50%;
+        }
+        .nl-right-part{
+          width: 50%;
+        }
+      }
     }
   }
 }
@@ -491,7 +526,7 @@ $color_white: #fff;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 70%;
+      width: 50%;
       max-width: 580px;
       height: 100%;
       padding-right: 30px;
@@ -500,7 +535,7 @@ $color_white: #fff;
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      width: 30%;
+      width: 50%;
       height: 100%;
 
       .nl-item__link{
@@ -522,31 +557,11 @@ $color_white: #fff;
 }
 @media only screen and (max-width: 576px){
   .nl-header-bar {
-    .nl-top-line{
-      flex-wrap: wrap;
-      .nl-left-part{
-        width: 100%;
-        padding: 0;
-        flex-wrap: wrap;
-        a{
-          width: 100%;
-          margin: 0;
-          text-align: center;
-          &.nl-logo{
-            margin-top: 30px;
-          }
-          .nl-logo-page{
-            width: 114px;
-          }
-        }
-        .nl-item__link{
-          &:last-child{
-            &:after{
-              border-left: 0 !important;
-            }
-          }
-        }
-      }
+    .nl-item__link{
+      display: none !important;
+    }
+    .nl-bottom-line{
+      display: none;
     }
   }
 }
