@@ -188,7 +188,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -210,7 +210,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -232,7 +232,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -254,7 +254,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -276,7 +276,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -298,7 +298,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -326,7 +326,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -348,7 +348,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -370,7 +370,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -392,7 +392,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -414,7 +414,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -436,7 +436,7 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
