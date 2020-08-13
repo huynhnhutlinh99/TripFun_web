@@ -1,4 +1,8 @@
-<?php include('../includes/head.meta.php')?>
+<?php 
+    include('../includes/head.meta.php');
+    include('../includes/header_bar.php');
+?>
+
 <div class="type-1-5">
     <div class="nl-banner">
         <img src="../public/img/1.5_banner.png" alt="">
