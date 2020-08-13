@@ -23,19 +23,19 @@
                     <a href="#" class="nl-item__link">취소 및 환불정책</a>
                 </div>
                 <div class="nl-ld-col__row5 nl-md-col__row5 nl-sm-col__row5 nl-xs-col__row5">
-                    <div class="my-row">
+                    <div class="my-row nl-row-5__item">
                         <div class="nl-intag nl-icon"></div>
                         <a href="#" class="nl-item__link">인스타그램</a>
                     </div>
-                    <div class="my-row">
+                    <div class="my-row nl-row-5__item">
                         <div class="nl-fb nl-icon"></div>
                         <a href="#" class="nl-item__link">페이스북</a>
                     </div>
-                    <div class="my-row">
+                    <div class="my-row nl-row-5__item">
                         <div class="nl-n-black nl-icon"></div>
                         <a href="#" class="nl-item__link">네이버 블로그</a>
                     </div>
-                    <div class="my-row">
+                    <div class="my-row nl-row-5__item">
                         <div class="nl-n-green nl-icon"></div>
                         <a href="#" class="nl-item__link">네이버 포스트</a>
                     </div>

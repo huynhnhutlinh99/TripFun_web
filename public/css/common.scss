@@ -285,8 +285,16 @@ $color_white: #fff;
   .nl-icon{
     position: relative;
     margin-right: 14px;
+    top: -1px
+  }
+  .nl-row-5__item{
+    margin-top: 3.5px;
+    &:first-child{
+      margin-top: 0;
+    }
   }
 }
+
 .nl-intag{
   height: 22px;
   width: 22px;

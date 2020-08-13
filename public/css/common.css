@@ -412,6 +412,15 @@ select {
 .nl-footer .nl-icon {
   position: relative;
   margin-right: 14px;
+  top: -1px;
+}
+
+.nl-footer .nl-row-5__item {
+  margin-top: 3.5px;
+}
+
+.nl-footer .nl-row-5__item:first-child {
+  margin-top: 0;
 }
 
 .nl-intag {
