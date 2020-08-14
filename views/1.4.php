@@ -58,7 +58,7 @@ include_once './index.php';
         </div>
 
         <div class="ht-list p1_4">
-            <ul class="ht-menu owl-carousel owl-theme">
+            <ul class="ht-menu owl-carousel owl-theme type-2">
                 <li class="active">삭제되</li>
                 <li>쉽게 액세스</li>
                 <li>태에</li>

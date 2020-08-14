@@ -11,7 +11,7 @@ include_once './index.php';
             <div class="ht-title">
                 <h1 class="mg-r-10">앞으 로서둘러 천국, 을는인, <br>지 말고숨겨줘 </h1>
             </div>
-            <a href="#" class="ht-link">영혼을달과별, 해짜는손 -></a>
+            <a href="#" class="ht-link">영혼을! 달과별 / 해짜는손 ></a>
         </div>
     </div>
     <div class="my-container">
@@ -37,7 +37,8 @@ include_once './index.php';
                 </a>
             </div>
             <div class="ht-col-ct-100">
-                <input type="text" placeholder="노래 속의 초대 소리처럼">
+                <input type="text" placeholder="노래속의 초대소럼">
+                <img src="../public/img/ht-images/1.1-kinhlup.svg" alt="">
             </div>
         </div>
         <div class="ht-list">

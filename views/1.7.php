@@ -20,13 +20,13 @@ include_once './index.php';
         </ul>
         <ul class="n-filter-right n-flex a-center">
             <li class="n-filter-right-item">
-                <img src="./dist/img/6.png" alt="">
+                <img src="../public/img/6.png" alt="">
             </li>
             <li class="n-filter-right-item">
-                <img src="./dist/img/7.png" alt="">
+                <img src="../public/img/7.png" alt="">
             </li>
             <li class="n-filter-right-item">
-                <img src="./dist/img/8.png" alt="">
+                <img src="../public/img/8.png" alt="">
             </li>
 
         </ul>
@@ -44,7 +44,7 @@ include_once './index.php';
                     <p>(상태에서만상태에서만)</p>
                     <button class="n-flex j-center a-center    n-flex a-center j-center">
                         <label for="">상태에</label>
-                        <img src="./dist/img/7.1-01.svg" alt="">
+                        <img src="../public/img/7.1-01.svg" alt="">
                     </button>
                 </div>
             </div>
@@ -58,7 +58,7 @@ include_once './index.php';
                     </h4>
                     <button class="n-flex j-center a-center    n-flex a-center j-center">
                         <label for="">상태에</label>
-                        <img src="./dist/img/7.1-01.svg" alt="">
+                        <img src="../public/img/7.1-01.svg" alt="">
                     </button>
                 </div>
             </div>
@@ -74,7 +74,7 @@ include_once './index.php';
                     </h4>
                     <button class="n-flex j-center a-center  n-flex a-center j-center">
                         <label for="">상태에</label>
-                        <img src="./dist/img/7.1-01.svg" alt="">
+                        <img src="../public/img/7.1-01.svg" alt="">
                     </button>
                 </div>
             </div>
@@ -88,7 +88,7 @@ include_once './index.php';
                     </h4>
                     <button class="n-flex j-center a-center  n-flex a-center j-center">
                         <label for="">상태에</label>
-                        <img src="./dist/img/7.1-01.svg" alt="">
+                        <img src="../public/img/7.1-01.svg" alt="">
                     </button>
                 </div>
             </div>
@@ -102,7 +102,7 @@ include_once './index.php';
                     </h3>
                     <button class="n-flex j-center a-center  n-flex a-center j-center">
                         <label for="">상태에</label>
-                        <img src="./dist/img/7.1-01.svg" alt="">
+                        <img src="../public/img/7.1-01.svg" alt="">
                     </button>
                 </div>
             </div>
@@ -132,7 +132,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -147,7 +147,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -162,7 +162,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -177,7 +177,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -192,7 +192,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -207,7 +207,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -222,7 +222,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -237,7 +237,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -269,7 +269,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -284,7 +284,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -299,7 +299,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -314,7 +314,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -329,7 +329,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -344,7 +344,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -359,7 +359,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -374,7 +374,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -406,7 +406,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -421,7 +421,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -436,7 +436,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -451,7 +451,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -466,7 +466,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -481,7 +481,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -496,7 +496,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -511,7 +511,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -543,7 +543,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -558,7 +558,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -573,7 +573,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -588,7 +588,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -603,7 +603,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -618,7 +618,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -633,7 +633,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>
@@ -648,7 +648,7 @@ include_once './index.php';
                         </div>
                         <button class="cp-content-bt   n-flex a-center j-center">
                             <label for="">상태에서만상</label>
-                            <img src="./dist/img/down.svg" alt="">
+                            <img src="../public/img/down.svg" alt="">
                         </button>
                     </div>
                 </li>

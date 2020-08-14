@@ -71,31 +71,19 @@ $(document).ready(function () {
             }
         }
     });
-
-    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    if (isMobile) {
+    var checkSlide = function () {
         $(".ht-menu").owlCarousel({
-            loop: true,
+            loop: false,
             dots: false,
             responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 3,
-                    nav: true
-                },
-                768: {
-                    items: 4,
-                    nav: false
-                },
-                1160: {
-                    items: 7,
-                    nav: false
-                },
-            }
-        });
-    } else {
+            autoWidth: true,
+            margin: 35,
+            nav: true,
 
+        });
     }
+    checkSlide();
+    window.addEventListener("resize", checkSlide);
 
 
 });
