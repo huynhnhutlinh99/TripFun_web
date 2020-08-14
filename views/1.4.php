@@ -71,7 +71,10 @@ include_once './index.php';
                 <li>남미</li>
             </ul>
             <h2>유럽 공항픽업/샌딩</h2>
-            <a href="#" class="ht-direct">인기순 <span class="ht-icon-r"></span></a>
+            <div class="ht-direct nl-row-sel">
+                인기순 
+                <!-- <span class="ht-icon-r nl-row-sel"></span> -->
+            </div>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
                     <div class="img-2 ht-img">
