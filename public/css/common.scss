@@ -412,32 +412,65 @@ $color_white: #fff;
   }
   .nl-multi-tab{
     font-size: 16px;
+    //title
     .nl-head-tab{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       padding: 0 30px;
-      height: 64px;
+      height: 80px;
       background-color: #2a96ee;
+      margin-top: 20px;
       .nl-head-item{
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
         .nl-nav-link{
           height: 100%;
           width: 100%;
           display: flex;
           align-items: center;
           justify-content: center;
-          padding: 0 20px;
           font-size: 18px;
           font-weight: 500;
           color: #fff;
           opacity: 0.7;
-          border-bottom: 3px solid transparent;
+          border-bottom: 4px solid transparent;
           &.active{
             opacity: 1;
             border-bottom-color: #035aa7;
           }
         }
 
+      }
+    }
+    //contain
+    .nl-ctn-tab{
+      font-size: 16px;
+      .nl-ctn-item{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 18px 0;
+        .nl-col-1{
+          text-align: right;
+          width: 160px;
+          padding-right: 55px;
+          font-weight: 600;
+        }
+        .nl-col-2{
+          width: calc(100% - 160px);
+          .nl-city{
+            display: inline-block;
+            line-height: 42px;
+            padding-right: 30px;
+            font-weight: 500;
+            color: #9d9d9d;
+            &:last-child{
+              padding-right: 0;
+            }
+          }
+        }
       }
     }
   }
@@ -628,6 +661,7 @@ $color_white: #fff;
     width: 20px;
     height: 20px;
     background-color: transparent;
+    border: 1px solid;
   }
 }
 .hidden{

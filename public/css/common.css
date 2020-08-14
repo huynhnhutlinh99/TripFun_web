@@ -558,8 +558,15 @@ select {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 30px;
-  height: 64px;
+  height: 80px;
   background-color: #2a96ee;
+  margin-top: 20px;
+}
+
+.type-1-10 .nl-multi-tab .nl-head-tab .nl-head-item {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .type-1-10 .nl-multi-tab .nl-head-tab .nl-head-item .nl-nav-link {
@@ -574,17 +581,54 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 20px;
   font-size: 18px;
   font-weight: 500;
   color: #fff;
   opacity: 0.7;
-  border-bottom: 3px solid transparent;
+  border-bottom: 4px solid transparent;
 }
 
 .type-1-10 .nl-multi-tab .nl-head-tab .nl-head-item .nl-nav-link.active {
   opacity: 1;
   border-bottom-color: #035aa7;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab {
+  font-size: 16px;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 18px 0;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item .nl-col-1 {
+  text-align: right;
+  width: 160px;
+  padding-right: 55px;
+  font-weight: 600;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item .nl-col-2 {
+  width: calc(100% - 160px);
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item .nl-col-2 .nl-city {
+  display: inline-block;
+  line-height: 42px;
+  padding-right: 30px;
+  font-weight: 500;
+  color: #9d9d9d;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item .nl-col-2 .nl-city:last-child {
+  padding-right: 0;
 }
 
 /*header*/
@@ -815,6 +859,7 @@ select {
   width: 20px;
   height: 20px;
   background-color: transparent;
+  border: 1px solid;
 }
 
 .hidden {

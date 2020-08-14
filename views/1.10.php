@@ -25,8 +25,24 @@
             </div>
             <div class="nl-ctn-tab">
                 <div class="nl-ctn-item">
-                    <div class="nl-col-1"></div>
-                    <div class="nl-col-2"></div>
+                    <div class="nl-col-1"><a href="#" class="nl-country">미국 </a></div>
+                    <div class="nl-col-2">
+                        <a href="#" class="nl-city">라스베가스</a>
+                        <a href="#" class="nl-city">로스엔젤레스</a>
+                        <a href="#" class="nl-city">하와이</a>
+                        <a href="#" class="nl-city">뉴욕</a>
+                        <a href="#" class="nl-city">샌프란시스코</a>
+                        <a href="#" class="nl-city">시카고</a>
+                        <a href="#" class="nl-city">워싱턴 D.C</a>
+                        <a href="#" class="nl-city">마이애미</a>
+                        <a href="#" class="nl-city">샌디에이고</a>
+                        <a href="#" class="nl-city">보스턴</a>
+                        <a href="#" class="nl-city">올랜도</a>
+                        <a href="#" class="nl-city">시애틀</a>
+                        <a href="#" class="nl-city">솔트레이크시티</a>
+                        <a href="#" class="nl-city">그랜드캐년 경비행기/헬기/버스투어</a>
+                        <a href="#" class="nl-city">라스베가스 쇼티켓 </a>
+                    </div>
                 </div>
             </div>
         </div>
