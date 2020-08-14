@@ -787,8 +787,8 @@ select {
           box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.2);
   -webkit-animation-name: menuMoveLeft;
           animation-name: menuMoveLeft;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
