@@ -9,21 +9,25 @@ include_once './index.php';
                 <div class="part-1">
                     <a href="#">업그레이드 중</a>
                     <div class="ht-right">
-                        <div class="ht-link-2">록을 중앙에서 관리 할 수​​있습니 <img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
+                        <div class="ht-link-2">록을 중앙에서 관리 할 수​​있습니 <img src="../public/img/ht-images/1.1-arrow.png"
+                                alt=""></div>
                         <div class="ht-link-2">나중에 쉽게 액세<img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
                     </div>
 
                 </div>
                 <div class="part-2">
                     <div class="ht-col-ct">
-                        <input type="text" placeholder="중앙에관리할수​​" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
+                        <input type="text" placeholder="중앙에관리할수​​" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = '록을중'">
                     </div>
                     <div class="ht-col-ct">
                         <div class="date">
                             <img src="../public/img/ht-images/1.2-calen.png" alt="">
-                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
+                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''"
+                                onblur="this.placeholder = '록을중'">
                             <img src="../public/img/ht-images/1.2-gray-arrow.png" alt="">
-                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
+                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''"
+                                onblur="this.placeholder = '록을중'">
 
                         </div>
                         <button class="ht-submit">관리</button>
@@ -49,7 +53,8 @@ include_once './index.php';
 
 
         <div class="ht-banner-2">
-            <div class="ht-left" style="background-image: url(https://images3.alphacoders.com/776/thumb-1920-776272.jpg);">
+            <div class="ht-left"
+                style="background-image: url(https://images3.alphacoders.com/776/thumb-1920-776272.jpg);">
                 <div class="ht-content">
                     <div class="ht-title">
                         액세스 할 수 있도록 염두에두고 <br>싶은 번역을 저장해야합니다
@@ -61,20 +66,30 @@ include_once './index.php';
 
             </div>
             <div class="ht-right">
-                <div class="ht-top" style="background-image: url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);">
+                <div class="ht-top"
+                    style="background-image: url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);">
                     <div class="ht-content">
                         있으며 내 활동 섹션에 <br>서 번역 <strong>20,000</strong> 중앙<br>에서 관리 할 수 ​​있습니다
                     </div>
                 </div>
-                <div class="ht-bot" style="background-image: url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);">
+                <div class="ht-bot"
+                    style="background-image: url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);">
                     <div class="ht-content">
                         있으며 내 활동 섹션에 <br>서 번역 기록을 중앙<br>에서 관리 할 수 ​​있습니다
                     </div>
                 </div>
             </div>
         </div>
-        <div class="ht-list">
+        <div class="ht-list type-2">
             <h2>수 없습니다</h2>
+            <ul class="ht-menu">
+                <li class="active">삭제되</li>
+                <li>쉽게 액세스</li>
+                <li>태에</li>
+                <li>태에</li>
+                <li>쉽게 액세스</li>
+                <li>쉽게 액세스</li>
+            </ul>
             <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
@@ -92,7 +107,8 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
+                                을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -114,7 +130,8 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
+                                을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -136,7 +153,8 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
+                                을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -158,7 +176,8 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
+                                을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -180,7 +199,8 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
+                                을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -202,7 +222,8 @@ include_once './index.php';
                         </div>
                         <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
                         <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1 을</span>
+                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
+                                을</span>
                         </div>
                     </div>
                     <span class="promo">천국을보게</span>
@@ -218,11 +239,11 @@ include_once './index.php';
             <div class="ht-list-img type-2">
                 <div class="ht-col-2 img-1 ht-img">
                     <span>삭로</span>
-                
+
                 </div>
                 <div class="ht-col-2 img-2 ht-img">
                     <span>삭로</span>
-                
+
                 </div>
             </div>
         </div>
