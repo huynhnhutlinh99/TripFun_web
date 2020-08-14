@@ -8,37 +8,37 @@ include_once './index.php';
                 <div>
                     <img src="../public/img/ht-images/1.4-01.png" alt="">
                 </div>
-                <span>삭제되므로</span>
+                <span>공항픽업/샌딩</span>
             </div>
             <div class="ht-col-2 box-1">
                 <div>
                     <img src="../public/img/ht-images/1.4-02.png" alt="">
                 </div>
-                <span>있도록 염두에두</span>
+                <span>데이터 유심카드</span>
             </div>
             <div class="ht-col-2 box-1">
                 <div>
                     <img src="../public/img/ht-images/1.4-03.png" alt="">
                 </div>
-                <span>있으며 내 활동</span>
+                <span>포켓 와이파이</span>
             </div>
             <div class="ht-col-2 box-1">
                 <div>
                     <img src="../public/img/ht-images/1.4-04.png" alt="">
                 </div>
-                <span>있염두에두</span>
+                <span>공항 라운지 서비스</span>
             </div>
             <div class="ht-col-2 box-1">
                 <div>
                     <img src="../public/img/ht-images/1.4-05.png" alt="">
                 </div>
-                <span>있으활동</span>
+                <span>렌터카</span>
             </div>
             <div class="ht-col-2 box-1">
                 <div>
                     <img src="../public/img/ht-images/1.4-06.png" alt="">
                 </div>
-                <span>있으활동</span>
+                <span>여행자 보험</span>
             </div>
         </div>
         <div class="ht-contain-banner p1_4">
@@ -59,17 +59,18 @@ include_once './index.php';
 
         <div class="ht-list p1_4">
             <ul class="ht-menu owl-carousel owl-theme type-2">
-                <li class="active">삭제되</li>
-                <li>쉽게 액세스</li>
-                <li>태에</li>
-                <li>태에</li>
-                <li>쉽게 액세스</li>
-                <li>쉽게 액세스</li>
-                <li>삭제</li>
-                <li>쉽게 액세스</li>
-                <li>쉽게 액세스</li>
+                <li class="active">전체</li>
+                <li>유럽</li>
+                <li>동남아</li>
+                <li>일본</li>
+                <li>홍콩/마카오/싱가폴</li>
+                <li>중국/대만</li>
+                <li>미주/캐나다</li>
+                <li>남태평양</li>
+                <li>호주/뉴질랜드 </li>
+                <li>남미</li>
             </ul>
-            <h2>수 없습니다</h2>
+            <h2>유럽 공항픽업/샌딩</h2>
             <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
