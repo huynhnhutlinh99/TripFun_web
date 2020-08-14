@@ -540,6 +540,41 @@ select {
 .type-1-10 .nl-title {
   font-size: 26px;
   font-weight: 400;
+  margin-top: 51px;
+}
+
+.type-1-10 .nl-btn-x-pu {
+  border: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  top: 41px;
+  right: 41px;
+}
+
+.type-1-10 .nl-btn-x-pu::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  border-left: 1px solid #424242;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.type-1-10 .nl-btn-x-pu::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  border-left: 1px solid #424242;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .type-1-10 .nl-multi-tab {
@@ -595,6 +630,29 @@ select {
 
 .type-1-10 .nl-multi-tab .nl-ctn-tab {
   font-size: 16px;
+  border: 1px solid #ededed;
+  max-height: 663px;
+  overflow-y: auto;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab::-webkit-scrollbar {
+  width: 10px;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab::-webkit-scrollbar-thumb {
+  background: #cdcdcd;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab::-webkit-scrollbar-thumb:hover {
+  background: #999;
 }
 
 .type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item {
@@ -605,7 +663,12 @@ select {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  padding: 18px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ededed;
+}
+
+.type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item:first-child {
+  border-top: 0;
 }
 
 .type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item .nl-col-1 {
@@ -621,7 +684,7 @@ select {
 
 .type-1-10 .nl-multi-tab .nl-ctn-tab .nl-ctn-item .nl-col-2 .nl-city {
   display: inline-block;
-  line-height: 42px;
+  line-height: 43px;
   padding-right: 30px;
   font-weight: 500;
   color: #9d9d9d;
