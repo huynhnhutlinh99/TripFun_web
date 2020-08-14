@@ -773,8 +773,6 @@ select {
   width: 100%;
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.4);
-  -webkit-transition: 2s;
-  transition: 2s;
   display: none;
 }
 
@@ -787,6 +785,12 @@ select {
   border: 1px solid #f3f3f3;
   -webkit-box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.2);
+  -webkit-animation-name: menuMoveLeft;
+          animation-name: menuMoveLeft;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .nl-header-bar .nl-menu-nav .nl-item__link-nav {
@@ -833,6 +837,28 @@ select {
   }
   .nl-header-bar .nl-top-line .nl-right-part {
     width: 30%;
+  }
+}
+
+/* The animation code */
+@-webkit-keyframes menuMoveLeft {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes menuMoveLeft {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 /*# sourceMappingURL=common.css.map */
