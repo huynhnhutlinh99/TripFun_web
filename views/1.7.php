@@ -1,254 +1,721 @@
 <?php
 include_once './index.php';
 ?>
-<div class="ht-container">
-    <div class="ht-ontop-img type-1">
-        <div class="ht-banner" style="background-image:url(../public/img/ht-images/1.1.jpg);"></div>
-        <div class="my-container">
-            <div class="ht-content">
-                <div class="part-1">
-                    <a href="#">업그레이드 중</a>
-                    <div class="ht-right">
-                        <div class="ht-link-2">록을 중앙에서 관리 할 수​​있습니 <img src="../public/img/ht-images/1.1-arrow.png"
-                                alt=""></div>
-                        <div class="ht-link-2">나중에 쉽게 액세<img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
-                    </div>
-
-                </div>
-                <div class="part-2">
-                    <div class="ht-col-ct">
-                        <input type="text" placeholder="중앙에관리할수​​" onfocus="this.placeholder = ''"
-                            onblur="this.placeholder = '록을중'">
-                    </div>
-                    <div class="ht-col-ct">
-                        <div class="date">
-                            <img src="../public/img/ht-images/1.2-calen.png" alt="">
-                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''"
-                                onblur="this.placeholder = '록을중'">
-                            <img src="../public/img/ht-images/1.2-gray-arrow.png" alt="">
-                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''"
-                                onblur="this.placeholder = '록을중'">
-
-                        </div>
-                        <button class="ht-submit">관리</button>
-                    </div>
-                </div>
-                <div class="part-3">
-                    <ul class="ht-menu">
-                        <li class="active">삭제되</li>
-                        <li>쉽게 액세스</li>
-                        <li>태에</li>
-                        <li>태에</li>
-                        <li>쉽게 액세스</li>
-                        <li>쉽게 액세스</li>
-                        <li>삭제</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="ht-ontop">
     <div class="my-container">
+        <div class="ht-title">
+            <h1 class="mg-r-10">앞으 로는인</h1>
 
-
-
-
-        <div class="ht-banner-2">
-            <div class="ht-left"
-                style="background-image: url(https://images3.alphacoders.com/776/thumb-1920-776272.jpg);">
-                <div class="ht-content">
-                    <div class="ht-title">
-                        액세스 할 수 있도록 염두에두고 <br>싶은 번역을 저장해야합니다
-                    </div>
-                    <div class="sub-title">
-                        태에서만 번역 기록을 볼 수
-                    </div>
-                </div>
-
-            </div>
-            <div class="ht-right">
-                <div class="ht-top"
-                    style="background-image: url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);">
-                    <div class="ht-content">
-                        있으며 내 활동 섹션에 <br>서 번역 <strong>20,000</strong> 중앙<br>에서 관리 할 수 ​​있습니다
-                    </div>
-                </div>
-                <div class="ht-bot"
-                    style="background-image: url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);">
-                    <div class="ht-content">
-                        있으며 내 활동 섹션에 <br>서 번역 기록을 중앙<br>에서 관리 할 수 ​​있습니다
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="ht-list type-2">
-            <h2>수 없습니다</h2>
-            <ul class="ht-menu">
-                <li class="active">삭제되</li>
-                <li>쉽게 액세스</li>
-                <li>태에</li>
-                <li>태에</li>
-                <li>쉽게 액세스</li>
-                <li>쉽게 액세스</li>
-            </ul>
-            <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
-            <div class="ht-slider owl-carousel type-1 owl-theme">
-                <div class="ht-item">
-                    <div class="img-2 ht-img">
-                        <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
-                    </div>
-                    <span class="vote unlike"></span>
-                    <div class="content">
-                        <div class="ht-gray">
-                            <div class="ht-star">
-                                <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
-                            </div>
-                            서서히섞이 . 것같아
-                        </div>
-                        <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
-                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
-                                을</span>
-                        </div>
-                    </div>
-                    <span class="promo">천국을보게</span>
-                    <div class="yellow-tick"></div>
-
-                </div>
-                <div class="ht-item">
-                    <div class="img-2 ht-img">
-                        <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
-                    </div>
-                    <span class="vote like"></span>
-                    <div class="content">
-                        <div class="ht-gray">
-                            <div class="ht-star">
-                                <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
-                            </div>
-                            서서히섞이 . 것같아
-                        </div>
-                        <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
-                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
-                                을</span>
-                        </div>
-                    </div>
-                    <span class="promo">천국을보게</span>
-                    <div class="yellow-tick"></div>
-
-                </div>
-                <div class="ht-item">
-                    <div class="img-2 ht-img">
-                        <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
-                    </div>
-                    <span class="vote like"></span>
-                    <div class="content">
-                        <div class="ht-gray">
-                            <div class="ht-star">
-                                <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
-                            </div>
-                            서서히섞이 . 것같아
-                        </div>
-                        <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
-                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
-                                을</span>
-                        </div>
-                    </div>
-                    <span class="promo">천국을보게</span>
-                    <div class="yellow-tick"></div>
-
-                </div>
-                <div class="ht-item">
-                    <div class="img-2 ht-img">
-                        <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
-                    </div>
-                    <span class="vote like"></span>
-                    <div class="content">
-                        <div class="ht-gray">
-                            <div class="ht-star">
-                                <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
-                            </div>
-                            서서히섞이 . 것같아
-                        </div>
-                        <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
-                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
-                                을</span>
-                        </div>
-                    </div>
-                    <span class="promo">천국을보게</span>
-                    <div class="yellow-tick"></div>
-
-                </div>
-                <div class="ht-item">
-                    <div class="img-2 ht-img">
-                        <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
-                    </div>
-                    <span class="vote unlike"></span>
-                    <div class="content">
-                        <div class="ht-gray">
-                            <div class="ht-star">
-                                <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
-                            </div>
-                            서서히섞이 . 것같아
-                        </div>
-                        <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
-                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
-                                을</span>
-                        </div>
-                    </div>
-                    <span class="promo">천국을보게</span>
-                    <div class="yellow-tick"></div>
-
-                </div>
-                <div class="ht-item">
-                    <div class="img-2 ht-img">
-                        <div class="ht-time">천국을보: 2020-05-03 ~ 2020-05-24</div>
-                    </div>
-                    <span class="vote unlike"></span>
-                    <div class="content">
-                        <div class="ht-gray">
-                            <div class="ht-star">
-                                <img src="../public/img/ht-images/1.1-star.svg" alt="">
-                                <span class="number">4.8<span class="mg-l-3">(5만)</span></span>
-                            </div>
-                            서서히섞이 . 것같아
-                        </div>
-                        <div class="ht-title">영혼을 달과 욕망으로별점점 듭니다을 (향해짜는손)</div>
-                        <div class="ht-option">영혼을 <img src="../public/img/ht-images/1.1-set.svg" alt=""></div>
-                        <div class="ht-price"><span class="discount">270,000 을</span>370,000<span class="sub">/1
-                                을</span>
-                        </div>
-                    </div>
-                    <span class="promo">천국을보게</span>
-                    <div class="yellow-tick"></div>
-
-                </div>
-            </div>
-        </div>
-
-
-        <div class="ht-list ht-1_2">
-            <h2>수 없습니다</h2>
-            <div class="ht-list-img type-2">
-                <div class="ht-col-2 img-1 ht-img">
-                    <span>삭로</span>
-
-                </div>
-                <div class="ht-col-2 img-2 ht-img">
-                    <span>삭로</span>
-
-                </div>
-            </div>
-        </div>
-
+        <p> <span>번역을 저장해야합니다</span>앞으로는 로그인 한 상태에서만</p>
     </div>
+</div>
+<div class="my-container" style="margin-top: 40px">
+    <div class="n-filter n-flex a-center j-between">
+        <ul class="n-filter-left n-flex a-center">
+            <li class="n-filter-left_item active">상태에서만</li>
+            <li class="n-filter-left_item">상태에서만</li>
+            <li class="n-filter-left_item">상태에서만</li>
+            <li class="n-filter-left_item main">상태에서만</li>
+        </ul>
+        <ul class="n-filter-right n-flex a-center">
+            <li class="n-filter-right-item">
+                <img src="./dist/img/6.png" alt="">
+            </li>
+            <li class="n-filter-right-item">
+                <img src="./dist/img/7.png" alt="">
+            </li>
+            <li class="n-filter-right-item">
+                <img src="./dist/img/8.png" alt="">
+            </li>
+
+        </ul>
+    </div>
+    <div class="n-coupons ">
+        <div class="n-coupons-top my-row j-between">
+            <div class="my-col-xs-12 my-col-md-6 n-coupons-top-left n-coupons-top-item">
+                <div class="top-item-content bg-1">
+                    <h3 class="n-title">
+                        상태에서만
+                    </h3>
+                    <h4>
+                        상태에서만상태에서만
+                    </h4>
+                    <p>(상태에서만상태에서만)</p>
+                    <button class="n-flex j-center a-center    n-flex a-center j-center">
+                        <label for="">상태에</label>
+                        <img src="./dist/img/7.1-01.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="my-col-xs-12 my-col-md-6 n-coupons-top-right n-coupons-top-item ">
+                <div class="top-item-content bg-2">
+                    <h3 class="n-title">
+                        상태에서만
+                    </h3>
+                    <h4 style="margin-bottom: 25px;">
+                        상태에서만상태에서만
+                    </h4>
+                    <button class="n-flex j-center a-center    n-flex a-center j-center">
+                        <label for="">상태에</label>
+                        <img src="./dist/img/7.1-01.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="n-coupons-bt my-row">
+            <div class="my-col-xs-12 my-col-md-4 n-coupons-bt-item">
+                <div class="bt-item-content  bg-3 ">
+                    <h3 class="n-title">
+                        상태에서만
+                    </h3>
+                    <h4>
+                        상태에서만상태에서만
+                    </h4>
+                    <button class="n-flex j-center a-center  n-flex a-center j-center">
+                        <label for="">상태에</label>
+                        <img src="./dist/img/7.1-01.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="my-col-xs-12 my-col-md-4 n-coupons-bt-item">
+                <div class="bt-item-content bg-4 ">
+                    <h3 class="n-title">
+                        상태에서만
+                    </h3>
+                    <h4>
+                        상태에서만상태에서만
+                    </h4>
+                    <button class="n-flex j-center a-center  n-flex a-center j-center">
+                        <label for="">상태에</label>
+                        <img src="./dist/img/7.1-01.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="my-col-xs-12 my-col-md-4 n-coupons-bt-item">
+                <div class="bt-item-content bg-5">
+                    <h3 class="n-title">
+                        상태에서만
+                    </h3>
+                    <h3>
+                        상태에서만
+                    </h3>
+                    <button class="n-flex j-center a-center  n-flex a-center j-center">
+                        <label for="">상태에</label>
+                        <img src="./dist/img/7.1-01.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="n-line"></div>
+    </div>
+    <div class="n-section n-section-1">
+        <div class="n-cp-title n-flex a-center j-between">
+            <div class="n-cp-left n-flex a-center">
+                <h3 class="n-title" style="padding-right: 10px;">상태에서만</h3>
+                <h4>상태에서만상태에서만</h4>
+            </div>
+            <div class="n-cp-right n-b-r_50 n-f-10">
+                상태에서만: <span> 2020-10-05 > 2020-19-05</span>
+            </div>
+        </div>
+        <div class="n-section-content">
+            <ul class="n-list-cp my-row">
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="n-section-btn">상태에상태에상태에</button>
+        </div>
+    </div>
+    <div class="n-section n-section-2">
+        <div class="n-cp-title n-flex a-center j-between">
+            <div class="n-cp-left n-flex a-center">
+                <h3 class="n-title" style="padding-right: 10px;">상태에서만</h3>
+                <h4>상태에서만상태에서만</h4>
+            </div>
+            <div class="n-cp-right n-b-r_50 n-f-10">
+                상태에서만: <span> 2020-10-05 > 2020-19-05</span>
+            </div>
+        </div>
+        <div class="n-section-content">
+            <ul class="n-list-cp my-row">
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="n-section-btn">상태에상태에상태에</button>
+        </div>
+    </div>
+    <div class="n-section n-section-3">
+        <div class="n-cp-title n-flex a-center j-between">
+            <div class="n-cp-left n-flex a-center">
+                <h3 class="n-title" style="padding-right: 10px;">상태에서만</h3>
+                <h4>상태에서만상태에서만</h4>
+            </div>
+            <div class="n-cp-right n-b-r_50 n-f-10">
+                상태에서만: <span> 2020-10-05 > 2020-19-05</span>
+            </div>
+        </div>
+        <div class="n-section-content">
+            <ul class="n-list-cp my-row">
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="n-section-btn">상태에상태에상태에</button>
+        </div>
+    </div>
+    <div class="n-section n-section-4">
+        <div class="n-cp-title n-flex a-center j-between">
+            <div class="n-cp-left n-flex a-center">
+                <h3 class="n-title" style="padding-right: 10px;">상태에서만</h3>
+                <h4>상태에서만상태에서만</h4>
+            </div>
+            <div class="n-cp-right n-b-r_50 n-f-10">
+                상태에서만: <span> 2020-10-05 > 2020-19-05</span>
+            </div>
+        </div>
+        <div class="n-section-content">
+            <ul class="n-list-cp my-row">
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="my-col-xs-12 my-col-md-6 my-col-lg-4 section-content-item">
+                    <div class="list-cp-content">
+                        <div class="cp-content-top">
+                            <label>상태에서만상태에서만</label>
+                            <div class="n-flex a-center j-between money">
+                                <span class="currency">W</span>
+                                <span class="price">3,000</span>
+                            </div>
+                        </div>
+                        <button class="cp-content-bt   n-flex a-center j-center">
+                            <label for="">상태에서만상</label>
+                            <img src="./dist/img/down.svg" alt="">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="n-section-btn">상태에상태에상태에</button>
+        </div>
+    </div>
+
+    <div class="n-section-5">
+        <h3 class="n-title">
+            상태에서만
+        </h3>
+        <div class="n-step">
+            <ul class="n-step_nav n-flex a-center j-center">
+                <li>
+                    <div class="n-step_nav-item n-flex a-center">
+                        <span class="num">1</span>
+                        <div class="right">
+                            <p>상태에서만</p>
+                            <p>상태에서만</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="n-step_nav-item n-flex a-center">
+                        <span class="num">2</span>
+                        <div class="right">
+                            <p>상태에서만</p>
+                            <p>상태에서만</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="n-step_nav-item n-flex a-center">
+                        <span class="num">3</span>
+                        <div class="right">
+                            <p>상태에서만</p>
+                            <p>상태에서만</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="n-step_nav-item n-flex a-center">
+                        <span class="num">4</span>
+                        <div class="right">
+                            <p>상태에서만</p>
+                            <p>상태에서만</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="n-step_nav-item n-flex a-center">
+                        <span class="num">5</span>
+                        <div class="right">
+                            <p>상태에서만</p>
+                            <p>상태에서만</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="square">
+
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <?php

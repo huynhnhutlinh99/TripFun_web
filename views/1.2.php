@@ -54,29 +54,29 @@ include_once './index.php';
 
         <div class="ht-banner-2">
             <div class="ht-left"
-                style="background-image: url(https://images3.alphacoders.com/776/thumb-1920-776272.jpg);">
-                <div class="ht-content">
+                style="background-image: url(../public/img/ht-images/1.2-main.png);">
+                <!-- <div class="ht-content">
                     <div class="ht-title">
                         액세스 할 수 있도록 염두에두고 <br>싶은 번역을 저장해야합니다
                     </div>
                     <div class="sub-title">
                         태에서만 번역 기록을 볼 수
                     </div>
-                </div>
+                </div> -->
 
             </div>
             <div class="ht-right">
                 <div class="ht-top"
-                    style="background-image: url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);">
-                    <div class="ht-content">
+                    style="background-image: url(../public/img/ht-images/1.2-heo.png);">
+                    <!-- <div class="ht-content">
                         있으며 내 활동 섹션에 <br>서 번역 <strong>20,000</strong> 중앙<br>에서 관리 할 수 ​​있습니다
-                    </div>
+                    </div> -->
                 </div>
                 <div class="ht-bot"
-                    style="background-image: url(https://images.unsplash.com/photo-1521208916306-71fce562015a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);">
-                    <div class="ht-content">
+                    style="background-image: url(../public/img/ht-images/1.2-credit.png);">
+                    <!-- <div class="ht-content">
                         있으며 내 활동 섹션에 <br>서 번역 기록을 중앙<br>에서 관리 할 수 ​​있습니다
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

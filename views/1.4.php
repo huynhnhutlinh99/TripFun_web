@@ -5,27 +5,39 @@ include_once './index.php';
     <div class="my-container ">
         <div class="ht-list-box-1 type-2">
             <div class="ht-col-2 box-1 active">
-                <img src="../public/img/ht-images/1.6-01.jpg" alt="">
+                <div>
+                    <img src="../public/img/ht-images/1.4-01.png" alt="">
+                </div>
                 <span>삭제되므로</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-02.jpg" alt="">
+                <div>
+                    <img src="../public/img/ht-images/1.4-02.png" alt="">
+                </div>
                 <span>있도록 염두에두</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-03.jpg" alt="">
+                <div>
+                    <img src="../public/img/ht-images/1.4-03.png" alt="">
+                </div>
                 <span>있으며 내 활동</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-04.jpg" alt="">
+                <div>
+                    <img src="../public/img/ht-images/1.4-04.png" alt="">
+                </div>
                 <span>있염두에두</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-05.jpg" alt="">
+                <div>
+                    <img src="../public/img/ht-images/1.4-05.png" alt="">
+                </div>
                 <span>있으활동</span>
             </div>
             <div class="ht-col-2 box-1">
-                <img src="../public/img/ht-images/1.6-05.jpg" alt="">
+                <div>
+                    <img src="../public/img/ht-images/1.4-06.png" alt="">
+                </div>
                 <span>있으활동</span>
             </div>
         </div>
@@ -41,13 +53,12 @@ include_once './index.php';
             <div class="owl-carousel owl-theme ht-banners">
                 <div class="ht-banner" style="background-image: url(../public/img/ht-images/banner-1.jpg);">
                 </div>
-                <div class="ht-banner" style="background-image: url(../public/img/ht-images/banner-1.jpg);">
-                </div>
+               
             </div>
         </div>
 
-        <div class="ht-list">
-            <ul class="ht-menu">
+        <div class="ht-list p1_4">
+            <ul class="ht-menu owl-carousel owl-theme">
                 <li class="active">삭제되</li>
                 <li>쉽게 액세스</li>
                 <li>태에</li>
@@ -55,8 +66,11 @@ include_once './index.php';
                 <li>쉽게 액세스</li>
                 <li>쉽게 액세스</li>
                 <li>삭제</li>
+                <li>쉽게 액세스</li>
+                <li>쉽게 액세스</li>
             </ul>
             <h2>수 없습니다</h2>
+            <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
                     <div class="img-2 ht-img">
@@ -192,12 +206,7 @@ include_once './index.php';
                 </div>
             </div>
         </div>
-        <div class="ht-bot-footer">
-            <a href="#">
-                달과 별을 향해 짜는 손
-            </a>
-
-        </div>
+       
     </div>
 </div>
 
