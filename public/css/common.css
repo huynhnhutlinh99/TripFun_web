@@ -964,6 +964,15 @@ select {
   .nl-header-bar .nl-top-line .nl-right-part {
     width: 30%;
   }
+  .nl-footer .nl-white-part .my-row .nl-xs-col__row5:first-child .nl-title-ft {
+    margin-top: 0;
+  }
+  .nl-footer .nl-white-part .nl-title-ft {
+    margin-top: 24px;
+  }
+  .nl-footer .nl-white-part .nl-row-5__item:first-child {
+    margin-top: 24px;
+  }
 }
 
 /* The animation code */

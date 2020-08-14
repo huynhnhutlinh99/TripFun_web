@@ -757,6 +757,27 @@ $color_white: #fff;
       }
     }
   }
+  .nl-footer{
+    .nl-white-part{
+      .my-row{
+        .nl-xs-col__row5{
+          &:first-child{
+            .nl-title-ft{
+              margin-top: 0;
+            }
+          }
+        }
+      }
+      .nl-title-ft{
+        margin-top: 24px;
+      }
+      .nl-row-5__item{
+        &:first-child{
+          margin-top: 24px;
+        }
+      }
+    }
+  }
 }
 /* The animation code */
 @keyframes menuMoveLeft {
