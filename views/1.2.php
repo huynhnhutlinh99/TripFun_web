@@ -9,32 +9,28 @@ include_once './index.php';
                 <div class="part-1">
                     <a href="#">업그레이드 중</a>
                     <div class="ht-right">
-                        <div class="ht-link-2">록을 중앙에서 관리 할 수​​있습니 <img src="../public/img/ht-images/1.1-arrow.png"
-                                alt=""></div>
+                        <div class="ht-link-2">록을 중앙에서 관리 할 수​​있습니 <img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
                         <div class="ht-link-2">나중에 쉽게 액세<img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
                     </div>
 
                 </div>
                 <div class="part-2">
                     <div class="ht-col-ct">
-                        <input type="text" placeholder="중앙에관리할수​​" onfocus="this.placeholder = ''"
-                            onblur="this.placeholder = '록을중'">
+                        <input type="text" placeholder="중앙에관리할수​​" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
                     </div>
                     <div class="ht-col-ct">
                         <div class="date">
                             <img src="../public/img/ht-images/1.2-calen.png" alt="">
-                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''"
-                                onblur="this.placeholder = '록을중'">
+                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
                             <img src="../public/img/ht-images/1.2-gray-arrow.png" alt="">
-                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''"
-                                onblur="this.placeholder = '록을중'">
+                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
 
                         </div>
                         <button class="ht-submit">관리</button>
                     </div>
                 </div>
                 <div class="part-3">
-                    <ul class="ht-menu">
+                    <ul class="ht-menu owl-carousel owl-theme">
                         <li class="active">삭제되</li>
                         <li>쉽게 액세스</li>
                         <li>태에</li>
@@ -53,8 +49,7 @@ include_once './index.php';
 
 
         <div class="ht-banner-2">
-            <div class="ht-left"
-                style="background-image: url(../public/img/ht-images/1.2-main.png);">
+            <div class="ht-left" style="background-image: url(../public/img/ht-images/1.2-main.png);">
                 <!-- <div class="ht-content">
                     <div class="ht-title">
                         액세스 할 수 있도록 염두에두고 <br>싶은 번역을 저장해야합니다
@@ -66,14 +61,12 @@ include_once './index.php';
 
             </div>
             <div class="ht-right">
-                <div class="ht-top"
-                    style="background-image: url(../public/img/ht-images/1.2-heo.png);">
+                <div class="ht-top" style="background-image: url(../public/img/ht-images/1.2-heo.png);">
                     <!-- <div class="ht-content">
                         있으며 내 활동 섹션에 <br>서 번역 <strong>20,000</strong> 중앙<br>에서 관리 할 수 ​​있습니다
                     </div> -->
                 </div>
-                <div class="ht-bot"
-                    style="background-image: url(../public/img/ht-images/1.2-credit.png);">
+                <div class="ht-bot" style="background-image: url(../public/img/ht-images/1.2-credit.png);">
                     <!-- <div class="ht-content">
                         있으며 내 활동 섹션에 <br>서 번역 기록을 중앙<br>에서 관리 할 수 ​​있습니다
                     </div> -->
@@ -82,14 +75,15 @@ include_once './index.php';
         </div>
         <div class="ht-list type-2">
             <h2>수 없습니다</h2>
-            <ul class="ht-menu">
-                <li class="active">삭제되</li>
-                <li>쉽게 액세스</li>
-                <li>태에</li>
-                <li>태에</li>
-                <li>쉽게 액세스</li>
-                <li>쉽게 액세스</li>
-            </ul>
+            <ul class="ht-menu owl-carousel owl-theme type-2">
+                        <li class="active">삭제되</li>
+                        <li>쉽게 액세스</li>
+                        <li>태에</li>
+                        <li>태에</li>
+                        <li>쉽게 액세스</li>
+                        <li>쉽게 액세스</li>
+                        <li>삭제</li>
+                    </ul>
             <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
