@@ -45,7 +45,9 @@
 	padding-bottom: 50px;
 	overflow-x: hidden;
 }
-
+.ht-container.ht-border {
+    border-top: 1px solid #c4c4c4;
+}
 .ht-container .my-container {
 	padding: 0;
 }
@@ -737,6 +739,13 @@
 	position: relative;
 	margin-bottom: 80px;
 }
+.ht-contain-banner.p1_4 {
+    margin-top: 55px;
+}
+.ht-contain-banner.p1_4 .ht-banner {
+    height: 309px;
+    margin-bottom: 29px;
+}
 
 .ht-contain-banner .ht-banner {
 	height: 338px;
@@ -1137,10 +1146,16 @@
 .ht-list.type-2 .ht-direct {
 	top: 33px;
 }
-
-.ht-list.type-2 .ht-menu {
+.ht-list .ht-menu {
 	display: flex;
 	position: absolute;
+	top: -68px;
+}
+.ht-list .ht-menu li {
+    margin-right: 35px;
+    font-size: 17px;
+}
+.ht-list.type-2 .ht-menu {
 	top: 52px;
 }
 
@@ -1148,8 +1163,12 @@
 	margin-right: 30px;
 }
 
-.ht-list.type-2 .ht-menu li.active {
+.ht-list .ht-menu li.active {
 	color: #0066cb
+}
+/* ============================= 1.4 */
+.ht-list-box-1.type-2 .ht-col-2 {
+    width: 15.5%;
 }
 
 /* =================================RESPONSIVE================================== */
