@@ -593,9 +593,8 @@ $color_white: #fff;
     width: 100%;
     z-index: 999;
     background-color: rgba(0,0,0, 0.4);
-    transition: 2s;
     display: none;
-    // visibility: hidden;
+    
     .nl-ctn-menu{
       position: relative;
       width: calc(100vw - 90px);
@@ -604,6 +603,9 @@ $color_white: #fff;
       background-color: #fff;
       border: 1px solid #f3f3f3;
       box-shadow: 2px 2px 6px 0 rgba(0,0,0, 0.2);
+      animation-name: menuMoveLeft;
+      animation-duration: 1.5s;
+      animation-delay: 0s;
     }
     .nl-item__link-nav{
       display: block;
@@ -651,5 +653,14 @@ $color_white: #fff;
         width: 30%;
       }
     }
+  }
+}
+/* The animation code */
+@keyframes menuMoveLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
   }
 }
