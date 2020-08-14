@@ -226,6 +226,9 @@ select {
     .nl-xs-col__row5{
       width: 20%;
       padding: 0;
+      &:last-child{
+        width: 118px;
+      }
     }
 
     .nl-header-bar{
@@ -241,6 +244,9 @@ select {
     .nl-xs-col__row5{
       width: 20%;
       padding: 0;
+      &:last-child{
+        width: 118px;
+      }
     }
     .nl-header-bar{
       .nl-bottom-line{
@@ -267,6 +273,12 @@ $color_white: #fff;
   .nl-white-part{
     background-color: $color_white;
     padding: 39px 0 28px;
+    .my-row{
+      justify-content: space-between;
+        .nl-row-5__item{
+          justify-content: flex-start;
+        }
+    }
   }
   .nl-grey-part{
     background-color: $color_grey_f3;
@@ -292,6 +304,7 @@ $color_white: #fff;
     &:first-child{
       margin-top: 0;
     }
+
   }
 }
 

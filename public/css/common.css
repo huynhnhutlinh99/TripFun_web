@@ -361,6 +361,9 @@ select {
     width: 20%;
     padding: 0;
   }
+  .my-container .nl-xs-col__row5:last-child {
+    width: 118px;
+  }
   .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
     width: 70%;
   }
@@ -373,6 +376,9 @@ select {
   .my-container .nl-xs-col__row5 {
     width: 20%;
     padding: 0;
+  }
+  .my-container .nl-xs-col__row5:last-child {
+    width: 118px;
   }
   .my-container .nl-header-bar .nl-bottom-line .nl-left-part {
     width: 50%;
@@ -390,6 +396,18 @@ select {
 .nl-footer .nl-white-part {
   background-color: #fff;
   padding: 39px 0 28px;
+}
+
+.nl-footer .nl-white-part .my-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nl-footer .nl-white-part .my-row .nl-row-5__item {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .nl-footer .nl-grey-part {
