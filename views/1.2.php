@@ -7,37 +7,37 @@ include_once './index.php';
         <div class="my-container">
             <div class="ht-content">
                 <div class="part-1">
-                    <a href="#">업그레이드 중</a>
+                    <a href="#">전체 도시보기</a>
                     <div class="ht-right">
-                        <div class="ht-link-2">록을 중앙에서 관리 할 수​​있습니 <img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
-                        <div class="ht-link-2">나중에 쉽게 액세<img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
+                        <div class="ht-link-2">한인민박 최대 3 만원 현금캐쉬백 받기<img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
+                        <div class="ht-link-2">후기 이벤트 자세히 보기<img src="../public/img/ht-images/1.1-arrow.png" alt=""></div>
                     </div>
 
                 </div>
                 <div class="part-2">
                     <div class="ht-col-ct">
-                        <input type="text" placeholder="중앙에관리할수​​" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
+                        <input type="text" placeholder="도시명 입력​​" onfocus="this.placeholder = ''" onblur="this.placeholder = '도시명 입력'">
                     </div>
                     <div class="ht-col-ct">
                         <div class="date">
                             <img src="../public/img/ht-images/1.2-calen.png" alt="">
-                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
+                            <input type="text" placeholder="체크인  " onfocus="this.placeholder = ''" onblur="this.placeholder = '체크인  '">
                             <img src="../public/img/ht-images/1.2-gray-arrow.png" alt="">
-                            <input type="text" placeholder="록을중" onfocus="this.placeholder = ''" onblur="this.placeholder = '록을중'">
+                            <input type="text" placeholder="체크아웃" onfocus="this.placeholder = ''" onblur="this.placeholder = '체크아웃'">
 
                         </div>
-                        <button class="ht-submit">관리</button>
+                        <button class="ht-submit">검색</button>
                     </div>
                 </div>
                 <div class="part-3">
                     <ul class="ht-menu owl-carousel owl-theme">
-                        <li class="active">삭제되</li>
-                        <li>쉽게 액세스</li>
-                        <li>태에</li>
-                        <li>태에</li>
-                        <li>쉽게 액세스</li>
-                        <li>쉽게 액세스</li>
-                        <li>삭제</li>
+                        <li class="active">오사카</li>
+                        <li>파리</li>
+                        <li>런던</li>
+                        <li>로마</li>
+                        <li>바르셀로나</li>
+                        <li>로스엔젤레스</li>
+                        <li>프라하</li>
                     </ul>
                 </div>
             </div>
@@ -74,17 +74,16 @@ include_once './index.php';
             </div>
         </div>
         <div class="ht-list type-2">
-            <h2>수 없습니다</h2>
+            <h2>인기 한인민박</h2>
             <ul class="ht-menu owl-carousel owl-theme type-2">
-                        <li class="active">삭제되</li>
-                        <li>쉽게 액세스</li>
-                        <li>태에</li>
-                        <li>태에</li>
-                        <li>쉽게 액세스</li>
-                        <li>쉽게 액세스</li>
-                        <li>삭제</li>
+                        <li class="active">런던</li>
+                        <li>파리</li>
+                        <li>바르셀로나</li>
+                        <li>뉴욕</li>
+                        <li>프라하</li>
+                        <li>로스엔젤레스 </li>
                     </ul>
-            <a href="#" class="ht-direct">다가가우리 <span class="ht-icon-r"></span></a>
+            <a href="#" class="ht-direct">전체도시 보기 <span class="ht-icon-r"></span></a>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
                     <div class="img-2 ht-img">
@@ -229,14 +228,14 @@ include_once './index.php';
 
 
         <div class="ht-list ht-1_2">
-            <h2>수 없습니다</h2>
+			<!--- <h2>수 없습니다</h2> -->
             <div class="ht-list-img type-2">
                 <div class="ht-col-2 img-1 ht-img">
-                    <span>삭로</span>
+                    <span>런던 한인민박 더보기</span>
 
                 </div>
                 <div class="ht-col-2 img-2 ht-img">
-                    <span>삭로</span>
+                    <span>런던 여행 검색하기</span>
 
                 </div>
             </div>

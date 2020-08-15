@@ -58,7 +58,7 @@ include_once './index.php';
         </div>
 
         <div class="ht-list p1_4">
-            <ul class="ht-menu owl-carousel owl-theme type-2">
+            <ul class="ht-menu owl-carousel owl-theme type-2" style="width: 100%">
                 <li class="active">전체</li>
                 <li>유럽</li>
                 <li>동남아</li>
@@ -71,10 +71,16 @@ include_once './index.php';
                 <li>남미</li>
             </ul>
             <h2>유럽 공항픽업/샌딩</h2>
-            <div class="ht-direct nl-row-sel">
-                인기순 
-                <!-- <span class="ht-icon-r nl-row-sel"></span> -->
-            </div>
+			<div class="ht-ct-sel">
+				<select class="ht-select">
+					<option>인기순</option> 
+					<option>후기순</option> 
+					<option>가격순</option> 
+					<option>신상품순</option> 
+					<!-- <span class="ht-icon-r nl-row-sel"></span> -->
+				<span class="ht-arrow-down mg-l-3"></span>
+            </select>
+			</div>
             <div class="ht-slider owl-carousel type-1 owl-theme">
                 <div class="ht-item">
                     <div class="img-2 ht-img">
