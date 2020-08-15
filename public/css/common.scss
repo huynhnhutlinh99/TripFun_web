@@ -188,9 +188,7 @@ select {
   margin: auto;
   @include rs-xs {
     padding: 0 20px;
-    .nl-xs-col__row5{
-      width: 100%;
-    }
+
     .nl-ctn__1_5{
       margin: 0;
     }
@@ -207,9 +205,6 @@ select {
   }
   @include rs-sm {
     padding: 0 20px;
-    .nl-xs-col__row5{
-      width: 100%;
-    }
     .nl-ctn__1_5{
       margin: 0;
     }
@@ -224,8 +219,7 @@ select {
   @include rs-md {
     padding: 0 20px;
     .nl-xs-col__row5{
-      width: 20%;
-      padding: 0;
+
       &:last-child{
         width: 118px;
       }
@@ -242,8 +236,6 @@ select {
   @include rs-lg {
     padding: 0;
     .nl-xs-col__row5{
-      width: 20%;
-      padding: 0;
       &:last-child{
         width: 118px;
       }
@@ -761,6 +753,7 @@ $color_white: #fff;
     .nl-white-part{
       .my-row{
         .nl-xs-col__row5{
+          width: 100%;
           &:first-child{
             .nl-title-ft{
               margin-top: 0;
