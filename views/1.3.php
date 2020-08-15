@@ -1,7 +1,7 @@
 <?php
 include_once './index.php';
 ?>
-<div class="ht-container">
+<div class="ht-container ht-1_3">
     <div class="ht-ontop type-2">
         <div class="my-container">
             <a href="#" class="ht-direct">할인쿠폰 즉시받기<span class="ht-icon-r"></span></a>
@@ -159,32 +159,32 @@ include_once './index.php';
             </div>
             <div class="ht-list-items">
                 <div class="ht-box-item">
-                    <div class="ht-title">LA 출발 <span class="ht-arrow-down mg-l-3"></span></div>
-
+                    <div class="ht-title">LA 출발 </div>
+                    <span class="ht-arrow-down"></span>
                 </div>
                 <div class="ht-box-item">
-                    <div class="ht-title">뉴욕/뉴져지공항 <span class="ht-arrow-down mg-l-3"></span></div>
-
+                    <div class="ht-title">뉴욕/뉴져지공항 </div>
+                    <span class="ht-arrow-down"></span>
                 </div>
                 <div class="ht-box-item">
-                    <div class="ht-title">사이판 공항 <span class="ht-arrow-down mg-l-3"></span></div>
-
+                    <div class="ht-title">사이판 공항 </div>
+                    <span class="ht-arrow-down"></span>
                 </div>
                 <div class="ht-box-item">
-                    <div class="ht-title">괌 공항 <span class="ht-arrow-down mg-l-3"></span></div>
-
+                    <div class="ht-title">괌 공항 </div>
+                    <span class="ht-arrow-down"></span>
                 </div>
                 <div class="ht-box-item">
-                    <div class="ht-title">하와이 <span class="ht-arrow-down mg-l-3"></span></div>
-
+                    <div class="ht-title">하와이 </div>
+                    <span class="ht-arrow-down"></span>
                 </div>
                 <div class="ht-box-item">
-                    <div class="ht-title">옐로스톤 <span class="ht-arrow-down mg-l-3"></span></div>
-
+                    <div class="ht-title">옐로스톤 </div>
+                    <span class="ht-arrow-down"></span>
                 </div>
                 <div class="ht-box-item">
-                    <div class="ht-title">벤쿠버 출발 <span class="ht-arrow-down mg-l-3"></span></div>
-
+                    <div class="ht-title">벤쿠버 출발 </div>
+                    <span class="ht-arrow-down"></span>
                 </div>
             </div>
         </div>

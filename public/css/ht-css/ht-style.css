@@ -960,8 +960,11 @@
 	margin-right: 8px;
 	margin-bottom: 15px;
 	cursor: pointer;
+	padding: 0 10px;
 }
-
+.ht-list-box-2.type-2 .ht-box-item {
+	flex-direction: row;
+}
 .ht-list-box-2 .ht-box-item .ht-title {
 	font-size: 16px;
 	margin-bottom: 10px;
@@ -991,6 +994,7 @@
 	border: 5px solid transparent;
 	border-top: 5px solid #000000;
 	display: inline-block;
+	margin-left: 8px;
 }
 
 .ht-banner-2 {
@@ -1275,6 +1279,136 @@ select.ht-select {
 .ht-container select::-ms-expand {
     display: none;
 }
+.ht-list-box-2 .ht-option .ht-arrow-down {
+	margin-left: 0;
+}
+.ht-auth {
+	width: 440px;
+    border: 1px solid #e7eaef;
+    padding: 0 50px;
+    display: flex;
+	margin: auto;
+	margin-top: 111px;
+	margin-bottom: 35px;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.ht-auth .ht-title {
+	margin-top: 27px;
+	margin-bottom: 23px;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 21px;
+}
+.ht-btn {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 16px;
+	width: 100%;
+}
+.ht-btn-t1 {
+	height: 40px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: relative;
+}
+.ht-btn-t2 {
+	height: 47px;
+	font-weight: bold;
+	background-color: #2a96ee;
+	border: none;
+	margin: 16px 0 23px;
+	font-size: 15px;
+}
+.ht-btn-t1.talk {
+	background-color: #ffe812;
+}
+.ht-btn-t1.nav {
+	background-color: #00d037;
+}
+.ht-btn-t1.fb {
+	background-color: #3b5999;
+	position: relative;
+}
+.ht-auth .sub-title {
+	font-size: 14px;
+	color: #9d9d9d;
+	margin-bottom: 15px;
+	z-index: 2;
+	background-color: white;
+	width: 41px;
+	text-align: center;
+}
+.ht-auth .ht-icon {
+	position: absolute;
+	left: 20px;
+}
+.ht-btn-t1.fb::after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background-color: #e7eaef;
+	left: 0;
+	bottom: -25px;
+}
+.ht-auth .ht-bot {
+	display: flex;
+	border-top: 1px solid #e7eaef;
+	padding-top: 19px;
+	width: 100%;
+}
+.ht-auth .ht-bot>p {
+	width: calc(100% - 106px);
+	margin-right: 15px;
+	color: #8b8b8b;
+	font-weight: 300;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.ht-auth .ht-bot>a {
+	background-color: #d4d5d9;
+	width: 106px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 32px;
+	font-size: 13px;
+}
+.ht-input {
+	height: 40px;
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	padding: 0 12px;
+	margin-bottom: 16px;
+	font-size: 15px;
+}
+.ht-input::placeholder {
+	color: #c4c4c4
+}
+.ht-auth .ht-option {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	color: #5c5c5c;
+	font-size: 15px;
+}
+.ht-checkbox {
+	border: 1px solid #e0e0e0;
+	height: 20px;
+	width: 20px;
+	display: flex;
+	margin-right: 6px;
+}
+.ht-checkgroup {
+	display: flex;
+}
 /* =================================RESPONSIVE================================== */
 
 @media only screen and (max-width: 1024px) {
@@ -1385,6 +1519,10 @@ select.ht-select {
     }
     .ht-list.type-2 .ht-menu {
         top: 41px;
+	}
+	.ht-ontop .ht-direct {
+        top: 68px;
+        right: 20px;
     }
 }
 
@@ -1403,7 +1541,7 @@ select.ht-select {
 		top: 20px;
 	}
 	.ht-ontop-img .ht-title>h1 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		line-height: 3rem;
 	}
 
@@ -1450,10 +1588,6 @@ select.ht-select {
         display: flex;
         padding-bottom: 15px;    
     }
-    .ht-ontop .ht-direct {
-        top: 68px;
-        right: 20px;
-    }
     .ht-ontop-img.type-1 .part-3 .ht-menu {
         height: 45px;
         width: 100%;
@@ -1474,6 +1608,37 @@ select.ht-select {
     }
 	.ht-ontop-img.type-1 .ht-link-2 {
 		font-size: 1.25rem;
+	}
+	.ht-ontop.type-2 .ht-title>h1 {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	.ht-ontop.type-2 .ht-title>p {
+		font-size: 1.25rem;
+		line-height: 1.25rem;
+		margin-top: 10px;
+	}
+	.ht-ontop.type-2 .my-container{
+		height: 100%;
+		padding: 20px;
+	}
+	.ht-ontop .my-container>p {
+		margin-top: 8px;
+	}
+	.ht-ontop .ht-direct {
+		top: 110px;
+	}
+	.ht-ontop .my-container .ht-title {
+		flex-wrap: wrap;
+	}
+	.ht-1_3	.ht-list>h2 {
+		position: relative;
+		top: -41px;
+		font-size: 16px;
+	}
+	.ht-auth {
+		padding: 0 20px;
+		margin-top: 30px;
 	}
 }
 
